@@ -1,0 +1,48 @@
+name: Poll power-monitor sources
+
+# Runs every 6 hours (00:00, 06:00, 12:00, 18:00 UTC) and on manual dispatch.
+# Commits the latest snapshot to the repo so the frontend can read it
+# without needing a runtime database.
+
+on:
+  schedule:
+    - cron: "0 */6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: poll
+  cancel-in-progress: false
+
+jobs:
+  poll:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install deps
+        run: pip install -r requirements.txt
+
+      - name: Run aggregate
+        id: poll
+        run: python -m src.aggregate
+
+      - name: Commit snapshot if changed
+        run: |
+          git config user.name "tuvzla-bot"
+          git config user.email "bot@tuvzla.com"
+          git add data/
+          if git diff --staged --quiet; then
+            echo "no changes"
+          else
+            git commit -m "data: $(date -u +%Y-%m-%dT%H:%MZ) snapshot"
+            git push
+          fi

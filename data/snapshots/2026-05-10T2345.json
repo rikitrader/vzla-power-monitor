@@ -1,0 +1,981 @@
+{
+  "snapshotAt": "2026-05-10T23:45:22+00:00",
+  "schemaVersion": 1,
+  "sources": {
+    "vdem": {
+      "ok": true,
+      "source": "V-Dem (vía Our World In Data)",
+      "url": "https://ourworldindata.org/democracy",
+      "lastYear": 2025,
+      "scores": [
+        {
+          "year": 2000,
+          "liberal": 0.31,
+          "electoral": 0.573,
+          "participatory": 0.405
+        },
+        {
+          "year": 2001,
+          "liberal": 0.288,
+          "electoral": 0.529,
+          "participatory": 0.376
+        },
+        {
+          "year": 2002,
+          "liberal": 0.255,
+          "electoral": 0.495,
+          "participatory": 0.354
+        },
+        {
+          "year": 2003,
+          "liberal": 0.243,
+          "electoral": 0.487,
+          "participatory": 0.348
+        },
+        {
+          "year": 2004,
+          "liberal": 0.216,
+          "electoral": 0.475,
+          "participatory": 0.339
+        },
+        {
+          "year": 2005,
+          "liberal": 0.182,
+          "electoral": 0.474,
+          "participatory": 0.335
+        },
+        {
+          "year": 2006,
+          "liberal": 0.168,
+          "electoral": 0.45,
+          "participatory": 0.316
+        },
+        {
+          "year": 2007,
+          "liberal": 0.162,
+          "electoral": 0.434,
+          "participatory": 0.311
+        },
+        {
+          "year": 2008,
+          "liberal": 0.159,
+          "electoral": 0.432,
+          "participatory": 0.306
+        },
+        {
+          "year": 2009,
+          "liberal": 0.16,
+          "electoral": 0.431,
+          "participatory": 0.3
+        },
+        {
+          "year": 2010,
+          "liberal": 0.154,
+          "electoral": 0.419,
+          "participatory": 0.296
+        },
+        {
+          "year": 2011,
+          "liberal": 0.152,
+          "electoral": 0.415,
+          "participatory": 0.294
+        },
+        {
+          "year": 2012,
+          "liberal": 0.145,
+          "electoral": 0.399,
+          "participatory": 0.278
+        },
+        {
+          "year": 2013,
+          "liberal": 0.109,
+          "electoral": 0.327,
+          "participatory": 0.23
+        },
+        {
+          "year": 2014,
+          "liberal": 0.102,
+          "electoral": 0.312,
+          "participatory": 0.219
+        },
+        {
+          "year": 2015,
+          "liberal": 0.103,
+          "electoral": 0.3,
+          "participatory": 0.209
+        },
+        {
+          "year": 2016,
+          "liberal": 0.118,
+          "electoral": 0.293,
+          "participatory": 0.207
+        },
+        {
+          "year": 2017,
+          "liberal": 0.082,
+          "electoral": 0.233,
+          "participatory": 0.168
+        },
+        {
+          "year": 2018,
+          "liberal": 0.061,
+          "electoral": 0.213,
+          "participatory": 0.156
+        },
+        {
+          "year": 2019,
+          "liberal": 0.06,
+          "electoral": 0.209,
+          "participatory": 0.157
+        },
+        {
+          "year": 2020,
+          "liberal": 0.056,
+          "electoral": 0.206,
+          "participatory": 0.153
+        },
+        {
+          "year": 2021,
+          "liberal": 0.056,
+          "electoral": 0.215,
+          "participatory": 0.156
+        },
+        {
+          "year": 2022,
+          "liberal": 0.054,
+          "electoral": 0.209,
+          "participatory": 0.14
+        },
+        {
+          "year": 2023,
+          "liberal": 0.053,
+          "electoral": 0.206,
+          "participatory": 0.155
+        },
+        {
+          "year": 2024,
+          "liberal": 0.046,
+          "electoral": 0.196,
+          "participatory": 0.154
+        },
+        {
+          "year": 2025,
+          "liberal": 0.042,
+          "electoral": 0.181,
+          "participatory": 0.148
+        }
+      ],
+      "indices": [
+        {
+          "key": "liberal",
+          "slug": "liberal-democracy-index",
+          "label": "Democracia liberal"
+        },
+        {
+          "key": "electoral",
+          "slug": "electoral-democracy-index",
+          "label": "Democracia electoral"
+        },
+        {
+          "key": "participatory",
+          "slug": "participatory-democracy-index",
+          "label": "Democracia participativa"
+        },
+        {
+          "key": "deliberative",
+          "slug": "deliberative-democracy-index",
+          "label": "Democracia deliberativa"
+        },
+        {
+          "key": "egalitarian",
+          "slug": "egalitarian-democracy-index",
+          "label": "Democracia igualitaria"
+        }
+      ],
+      "errors": [
+        "deliberative: 404 Client Error: Not Found for url: https://ourworldindata.org/grapher/deliberative-democracy-index.csv?country=Venezuela&v=1",
+        "egalitarian: 404 Client Error: Not Found for url: https://ourworldindata.org/grapher/egalitarian-democracy-index.csv?country=Venezuela&v=1"
+      ],
+      "_ms": 4393
+    },
+    "gdelt": {
+      "ok": true,
+      "source": "GDELT 2.0 DOC API",
+      "url": "https://blog.gdeltproject.org/gdelt-doc-2-0-api-debuts/",
+      "timespan": "90d",
+      "queries": [
+        {
+          "key": "protests",
+          "label": "Protestas",
+          "query": "venezuela (protest OR protesta OR manifestación)",
+          "series": [
+            {
+              "date": "2026-02-10",
+              "value": 72
+            },
+            {
+              "date": "2026-02-11",
+              "value": 45
+            },
+            {
+              "date": "2026-02-12",
+              "value": 37
+            },
+            {
+              "date": "2026-02-13",
+              "value": 58
+            },
+            {
+              "date": "2026-02-14",
+              "value": 86
+            },
+            {
+              "date": "2026-02-15",
+              "value": 51
+            },
+            {
+              "date": "2026-02-16",
+              "value": 62
+            },
+            {
+              "date": "2026-02-17",
+              "value": 42
+            },
+            {
+              "date": "2026-02-18",
+              "value": 29
+            },
+            {
+              "date": "2026-02-19",
+              "value": 35
+            },
+            {
+              "date": "2026-02-20",
+              "value": 71
+            },
+            {
+              "date": "2026-02-21",
+              "value": 42
+            },
+            {
+              "date": "2026-02-22",
+              "value": 36
+            },
+            {
+              "date": "2026-02-23",
+              "value": 101
+            },
+            {
+              "date": "2026-02-24",
+              "value": 107
+            },
+            {
+              "date": "2026-02-25",
+              "value": 191
+            },
+            {
+              "date": "2026-02-26",
+              "value": 50
+            },
+            {
+              "date": "2026-02-27",
+              "value": 32
+            },
+            {
+              "date": "2026-02-28",
+              "value": 1
+            },
+            {
+              "date": "2026-03-01",
+              "value": 91
+            },
+            {
+              "date": "2026-03-02",
+              "value": 76
+            },
+            {
+              "date": "2026-03-03",
+              "value": 58
+            },
+            {
+              "date": "2026-03-04",
+              "value": 81
+            },
+            {
+              "date": "2026-03-05",
+              "value": 47
+            },
+            {
+              "date": "2026-03-06",
+              "value": 48
+            },
+            {
+              "date": "2026-03-07",
+              "value": 289
+            },
+            {
+              "date": "2026-03-08",
+              "value": 80
+            },
+            {
+              "date": "2026-03-09",
+              "value": 62
+            },
+            {
+              "date": "2026-03-10",
+              "value": 81
+            },
+            {
+              "date": "2026-03-11",
+              "value": 37
+            },
+            {
+              "date": "2026-03-12",
+              "value": 52
+            },
+            {
+              "date": "2026-03-13",
+              "value": 44
+            },
+            {
+              "date": "2026-03-14",
+              "value": 75
+            },
+            {
+              "date": "2026-03-15",
+              "value": 55
+            },
+            {
+              "date": "2026-03-16",
+              "value": 71
+            },
+            {
+              "date": "2026-03-17",
+              "value": 82
+            },
+            {
+              "date": "2026-03-18",
+              "value": 58
+            },
+            {
+              "date": "2026-03-19",
+              "value": 40
+            },
+            {
+              "date": "2026-03-20",
+              "value": 38
+            },
+            {
+              "date": "2026-03-21",
+              "value": 85
+            },
+            {
+              "date": "2026-03-22",
+              "value": 41
+            },
+            {
+              "date": "2026-03-23",
+              "value": 53
+            },
+            {
+              "date": "2026-03-24",
+              "value": 36
+            },
+            {
+              "date": "2026-03-25",
+              "value": 48
+            },
+            {
+              "date": "2026-03-26",
+              "value": 67
+            },
+            {
+              "date": "2026-03-27",
+              "value": 32
+            },
+            {
+              "date": "2026-03-28",
+              "value": 37
+            },
+            {
+              "date": "2026-03-29",
+              "value": 85
+            },
+            {
+              "date": "2026-03-30",
+              "value": 71
+            },
+            {
+              "date": "2026-03-31",
+              "value": 31
+            },
+            {
+              "date": "2026-04-01",
+              "value": 24
+            },
+            {
+              "date": "2026-04-02",
+              "value": 19
+            },
+            {
+              "date": "2026-04-03",
+              "value": 16
+            },
+            {
+              "date": "2026-04-04",
+              "value": 21
+            },
+            {
+              "date": "2026-04-05",
+              "value": 21
+            },
+            {
+              "date": "2026-04-06",
+              "value": 25
+            },
+            {
+              "date": "2026-04-07",
+              "value": 30
+            },
+            {
+              "date": "2026-04-08",
+              "value": 27
+            },
+            {
+              "date": "2026-04-09",
+              "value": 51
+            },
+            {
+              "date": "2026-04-10",
+              "value": 68
+            },
+            {
+              "date": "2026-04-11",
+              "value": 39
+            },
+            {
+              "date": "2026-04-12",
+              "value": 29
+            },
+            {
+              "date": "2026-04-13",
+              "value": 23
+            },
+            {
+              "date": "2026-04-14",
+              "value": 23
+            },
+            {
+              "date": "2026-04-15",
+              "value": 37
+            },
+            {
+              "date": "2026-04-16",
+              "value": 36
+            },
+            {
+              "date": "2026-04-17",
+              "value": 26
+            },
+            {
+              "date": "2026-04-18",
+              "value": 11
+            },
+            {
+              "date": "2026-04-19",
+              "value": 24
+            },
+            {
+              "date": "2026-04-20",
+              "value": 27
+            },
+            {
+              "date": "2026-04-21",
+              "value": 39
+            },
+            {
+              "date": "2026-04-22",
+              "value": 27
+            },
+            {
+              "date": "2026-04-23",
+              "value": 33
+            },
+            {
+              "date": "2026-04-24",
+              "value": 39
+            },
+            {
+              "date": "2026-04-25",
+              "value": 16
+            },
+            {
+              "date": "2026-04-26",
+              "value": 11
+            },
+            {
+              "date": "2026-04-27",
+              "value": 15
+            },
+            {
+              "date": "2026-04-28",
+              "value": 12
+            },
+            {
+              "date": "2026-04-29",
+              "value": 28
+            },
+            {
+              "date": "2026-04-30",
+              "value": 29
+            },
+            {
+              "date": "2026-05-01",
+              "value": 38
+            },
+            {
+              "date": "2026-05-02",
+              "value": 27
+            },
+            {
+              "date": "2026-05-03",
+              "value": 26
+            },
+            {
+              "date": "2026-05-04",
+              "value": 19
+            },
+            {
+              "date": "2026-05-05",
+              "value": 12
+            },
+            {
+              "date": "2026-05-06",
+              "value": 23
+            },
+            {
+              "date": "2026-05-07",
+              "value": 36
+            },
+            {
+              "date": "2026-05-08",
+              "value": 32
+            },
+            {
+              "date": "2026-05-09",
+              "value": 11
+            },
+            {
+              "date": "2026-05-10",
+              "value": 15
+            }
+          ]
+        }
+      ],
+      "errors": [
+        "venezuela: 429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=venezuela&mode=timelinevolraw&format=json&timespan=90d",
+        "maduro: 429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=venezuela+maduro&mode=timelinevolraw&format=json&timespan=90d",
+        "sanctions: 429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=venezuela+%28sanction+OR+sanci%C3%B3n+OR+ofac+OR+chevron%29&mode=timelinevolraw&format=json&timespan=90d"
+      ],
+      "_ms": 19911
+    },
+    "foroPenal": {
+      "ok": true,
+      "source": "Foro Penal",
+      "url": "https://foropenal.com/",
+      "fetchedAt": "2026-05-10T23:45:52+00:00",
+      "asOf": "2026-05-04",
+      "total": 457,
+      "categories": {
+        "Militares": 187,
+        "Mujeres": 43,
+        "Adolescentes": 1,
+        "Civiles": 43
+      },
+      "_ms": 5840
+    },
+    "predictionMarkets": {
+      "ok": true,
+      "source": "Polymarket Gamma + Manifold Markets",
+      "url": "https://tuvzla.com/api/markets",
+      "fetchedAt": "2026-05-10T23:45:52.995Z",
+      "sources": {
+        "polymarket": {
+          "ok": true,
+          "count": 0
+        },
+        "manifold": {
+          "ok": true,
+          "count": 28
+        }
+      },
+      "markets": [
+        {
+          "id": "mf-c2CEyuLIEZ",
+          "title": "Will we learn by 2027 that Maduro’s ouster was an internal coup with US assistance?",
+          "source": "Manifold",
+          "prob": 20.541865424921692,
+          "liquidityUsd": 1700,
+          "volumeUsd": 3679.0075862597964,
+          "traders": 29,
+          "url": "https://manifold.markets/MachiNi/will-we-learn-by-2027-that-maduros",
+          "slug": "will-we-learn-by-2027-that-maduros",
+          "category": null,
+          "resolutionDate": "2026-12-31T23:59:00.000Z"
+        },
+        {
+          "id": "mf-eRy26fcDdHYMEl7k8rKe",
+          "title": "Will there be a civil war in Venezuela before 2050?",
+          "source": "Manifold",
+          "prob": 52.805072111176266,
+          "liquidityUsd": 1090,
+          "volumeUsd": 2620.7877956103057,
+          "traders": 34,
+          "url": "https://manifold.markets/MetaculusBot/will-there-be-a-civil-war-in-venezu",
+          "slug": "will-there-be-a-civil-war-in-venezu",
+          "category": null,
+          "resolutionDate": "2050-01-01T05:00:00.000Z"
+        },
+        {
+          "id": "mf-8Z82suzhQO",
+          "title": "Will Maduro remain president of Venezuela through 2026?",
+          "source": "Manifold",
+          "prob": 1.510859807420723,
+          "liquidityUsd": 1000,
+          "volumeUsd": 67807.85545719981,
+          "traders": 99,
+          "url": "https://manifold.markets/EvanDaniel/will-maduro-remain-president-of-ven",
+          "slug": "will-maduro-remain-president-of-ven",
+          "category": null,
+          "resolutionDate": "2026-12-31T13:45:00.000Z"
+        },
+        {
+          "id": "mf-SnRqRU56N8",
+          "title": "Presidential Election in Venezuela by EOY 2026?",
+          "source": "Manifold",
+          "prob": 46.47080991804006,
+          "liquidityUsd": 1000,
+          "volumeUsd": 1880.9976958328848,
+          "traders": 30,
+          "url": "https://manifold.markets/SqrtMinusOne/presidential-election-in-venezuela",
+          "slug": "presidential-election-in-venezuela",
+          "category": null,
+          "resolutionDate": "2026-12-31T23:59:00.000Z"
+        },
+        {
+          "id": "mf-l52E9LtA06",
+          "title": "Will Trump or his family benefit financially from US control of Venezuela by end of year?",
+          "source": "Manifold",
+          "prob": 61.95604002543062,
+          "liquidityUsd": 1000,
+          "volumeUsd": 3959.7346257164045,
+          "traders": 35,
+          "url": "https://manifold.markets/robert/will-trump-or-his-family-benefit-fi",
+          "slug": "will-trump-or-his-family-benefit-fi",
+          "category": null,
+          "resolutionDate": "2026-12-31T23:59:00.000Z"
+        },
+        {
+          "id": "mf-Esg6hlPqCd",
+          "title": "Will Maria Corina Machado ever be President of Venezuela?",
+          "source": "Manifold",
+          "prob": 17.33134494653341,
+          "liquidityUsd": 1000,
+          "volumeUsd": 9789.185073239742,
+          "traders": 53,
+          "url": "https://manifold.markets/IAF/will-maria-corina-machado-ever-be-p",
+          "slug": "will-maria-corina-machado-ever-be-p",
+          "category": null,
+          "resolutionDate": "2100-12-31T23:59:00.000Z"
+        },
+        {
+          "id": "mf-OAuqZIEIEz",
+          "title": "Free & Fair Presidential Election in Venezuela by EOY 2026?",
+          "source": "Manifold",
+          "prob": 20.158409526783228,
+          "liquidityUsd": 1000,
+          "volumeUsd": 2007.4322019878189,
+          "traders": 16,
+          "url": "https://manifold.markets/B/free-fair-presidential-election-in",
+          "slug": "free-fair-presidential-election-in",
+          "category": null,
+          "resolutionDate": "2026-12-31T23:59:00.000Z"
+        },
+        {
+          "id": "mf-NnR8uIyNUz",
+          "title": "Will the next presidential election in Venezuela be free and fair?",
+          "source": "Manifold",
+          "prob": 28.04636696350845,
+          "liquidityUsd": 1000,
+          "volumeUsd": 490.08951851511864,
+          "traders": 9,
+          "url": "https://manifold.markets/SaviorofPlant/will-the-next-presidential-election",
+          "slug": "will-the-next-presidential-election",
+          "category": null,
+          "resolutionDate": "2030-12-31T23:59:00.000Z"
+        },
+        {
+          "id": "mf-ttdOSsIt0g",
+          "title": "Will Venezuela enter a new hot war with anyone by the end of 2026?",
+          "source": "Manifold",
+          "prob": 8.71844498367116,
+          "liquidityUsd": 1000,
+          "volumeUsd": 13639.758249107444,
+          "traders": 69,
+          "url": "https://manifold.markets/Panfilo/will-venezuela-enter-a-new-hot-war",
+          "slug": "will-venezuela-enter-a-new-hot-war",
+          "category": null,
+          "resolutionDate": "2026-12-31T23:59:00.000Z"
+        },
+        {
+          "id": "mf-34fxk3yizn",
+          "title": "If the Musk/Maduro fight happens and Maduro loses, will Maduro cede power?",
+          "source": "Manifold",
+          "prob": 24.805069169518813,
+          "liquidityUsd": 1000,
+          "volumeUsd": 2020.1889998402787,
+          "traders": 11,
+          "url": "https://manifold.markets/EricMoyer/if-the-muskmaduro-fight-happens-and",
+          "slug": "if-the-muskmaduro-fight-happens-and",
+          "category": null,
+          "resolutionDate": "2030-07-29T03:59:00.000Z"
+        },
+        {
+          "id": "mf-0pncpz9EQI",
+          "title": "Will Trump and Maduro meet in person?",
+          "source": "Manifold",
+          "prob": 11.96861071006136,
+          "liquidityUsd": 600,
+          "volumeUsd": 2717.968028855621,
+          "traders": 18,
+          "url": "https://manifold.markets/BrendanFinan/will-trump-and-maduro-meet-in-perso",
+          "slug": "will-trump-and-maduro-meet-in-perso",
+          "category": null,
+          "resolutionDate": "2027-01-04T03:05:00.000Z"
+        },
+        {
+          "id": "mf-6QAgNtlNhR",
+          "title": "Will Trump pardon Nicolas Maduro before 1 Feb 2027?",
+          "source": "Manifold",
+          "prob": 12.078539294470293,
+          "liquidityUsd": 567,
+          "volumeUsd": 1166.9819855048888,
+          "traders": 12,
+          "url": "https://manifold.markets/Jack1/will-trump-pardon-nicolas-maduro-be",
+          "slug": "will-trump-pardon-nicolas-maduro-be",
+          "category": null,
+          "resolutionDate": "2027-01-31T23:59:00.000Z"
+        },
+        {
+          "id": "mf-NycSyCNcls",
+          "title": "Will María Corina Machado serve in a leadership role in a government in Venezuela by the end of 2027?",
+          "source": "Manifold",
+          "prob": 32.162484296882624,
+          "liquidityUsd": 300,
+          "volumeUsd": 1232.9185654335051,
+          "traders": 25,
+          "url": "https://manifold.markets/bens/will-maria-corina-machado-serve-in",
+          "slug": "will-maria-corina-machado-serve-in",
+          "category": null,
+          "resolutionDate": "2027-12-31T23:59:00.000Z"
+        },
+        {
+          "id": "mf-ALcgNZ8P0y",
+          "title": "Will Trump visit Venezuela in 2026?",
+          "source": "Manifold",
+          "prob": 13.532655631206458,
+          "liquidityUsd": 279,
+          "volumeUsd": 8316.819331058834,
+          "traders": 51,
+          "url": "https://manifold.markets/Jack1/will-trump-venezuela-in-2026",
+          "slug": "will-trump-venezuela-in-2026",
+          "category": null,
+          "resolutionDate": "2026-12-31T23:59:00.000Z"
+        },
+        {
+          "id": "mf-A9Qtcgpsyl",
+          "title": "Will Maduro die in U.S. custody?",
+          "source": "Manifold",
+          "prob": 45.74451968801743,
+          "liquidityUsd": 200,
+          "volumeUsd": 10383.523863362987,
+          "traders": 75,
+          "url": "https://manifold.markets/realTomBayes/will-maduro-die-in-us-custody",
+          "slug": "will-maduro-die-in-us-custody",
+          "category": null,
+          "resolutionDate": "2100-02-28T19:51:00.000Z"
+        },
+        {
+          "id": "mf-NdhUhU8OPO",
+          "title": "Maduro out of custody by EOY 2026?",
+          "source": "Manifold",
+          "prob": 16.908489642435036,
+          "liquidityUsd": 140,
+          "volumeUsd": 310.4379771156577,
+          "traders": 18,
+          "url": "https://manifold.markets/Jack1/maduro-out-of-custody-by-eoy-2026",
+          "slug": "maduro-out-of-custody-by-eoy-2026",
+          "category": null,
+          "resolutionDate": "2026-12-30T19:23:00.000Z"
+        },
+        {
+          "id": "mf-lOy2glPN8y",
+          "title": "Will there be a civil war with at least 1,000 deaths in Venezuela in 2026?",
+          "source": "Manifold",
+          "prob": 6.727402411977966,
+          "liquidityUsd": 100,
+          "volumeUsd": 1220.889415312671,
+          "traders": 15,
+          "url": "https://manifold.markets/Xiphias/will-there-be-a-civil-war-with-at-l",
+          "slug": "will-there-be-a-civil-war-with-at-l",
+          "category": null,
+          "resolutionDate": "2027-01-31T23:59:00.000Z"
+        },
+        {
+          "id": "mf-gCydO9lAA2",
+          "title": "Will a P5 nation veto a 2026 UNSCR about US military action in Venezuela or its vessels?",
+          "source": "Manifold",
+          "prob": 68.59530564842491,
+          "liquidityUsd": 100,
+          "volumeUsd": 30.879181161987926,
+          "traders": 2,
+          "url": "https://manifold.markets/nfd/will-a-p5-nation-veto-a-2026-unscr",
+          "slug": "will-a-p5-nation-veto-a-2026-unscr",
+          "category": null,
+          "resolutionDate": "2026-12-31T23:59:00.000Z"
+        },
+        {
+          "id": "mf-A0L9scENPt",
+          "title": "Will Venezuela officially announce and schedule early presidential elections to be held before September 1, 2026?",
+          "source": "Manifold",
+          "prob": 53.566758696937,
+          "liquidityUsd": 100,
+          "volumeUsd": 261.7057027167816,
+          "traders": 10,
+          "url": "https://manifold.markets/25112019/will-venezuela-officially-announce",
+          "slug": "will-venezuela-officially-announce",
+          "category": null,
+          "resolutionDate": "2026-08-31T23:59:00.000Z"
+        },
+        {
+          "id": "mf-UIPES58Sps",
+          "title": "Will Nicolás Maduro return to Venezuela in his life?",
+          "source": "Manifold",
+          "prob": 83.98767616295075,
+          "liquidityUsd": 100,
+          "volumeUsd": 152.97620852338457,
+          "traders": 4,
+          "url": "https://manifold.markets/SpeaksForTrees/will-nicolas-maduro-return-to-venez",
+          "slug": "will-nicolas-maduro-return-to-venez",
+          "category": null,
+          "resolutionDate": "2062-12-31T23:59:00.000Z"
+        },
+        {
+          "id": "mf-9900A5APz8",
+          "title": "Will Trump bomb Venezuela boats again before end of the year?",
+          "source": "Manifold",
+          "prob": 67.70235137194109,
+          "liquidityUsd": 100,
+          "volumeUsd": 334.46826316661725,
+          "traders": 18,
+          "url": "https://manifold.markets/PascalBlyau/will-trump-bomb-venezuela-boats-aga",
+          "slug": "will-trump-bomb-venezuela-boats-aga",
+          "category": null,
+          "resolutionDate": "2026-12-31T23:59:00.000Z"
+        },
+        {
+          "id": "mf-yphuEs2sPh",
+          "title": "Will the Spanish ex-president José Luis Rodríguez Zapatero be tried because of his involvement with Maduro’s government?",
+          "source": "Manifold",
+          "prob": 23.82546396086412,
+          "liquidityUsd": 100,
+          "volumeUsd": 85.44763454866931,
+          "traders": 5,
+          "url": "https://manifold.markets/LaintalAy/will-the-spanish-expresident-jose-l",
+          "slug": "will-the-spanish-expresident-jose-l",
+          "category": null,
+          "resolutionDate": "2030-01-30T23:59:00.000Z"
+        },
+        {
+          "id": "mf-OluRnIILtd",
+          "title": "Will former Venezuelan president Nicolaus Maduro come back to power in 2026",
+          "source": "Manifold",
+          "prob": 7.582724865529013,
+          "liquidityUsd": 100,
+          "volumeUsd": 444.4933428657214,
+          "traders": 13,
+          "url": "https://manifold.markets/100Anonymous/will-former-venezuelan-president-ni",
+          "slug": "will-former-venezuelan-president-ni",
+          "category": null,
+          "resolutionDate": "2026-12-31T10:17:00.000Z"
+        },
+        {
+          "id": "mf-AuzSh09q96",
+          "title": "Will Trump pardon Maduro?",
+          "source": "Manifold",
+          "prob": 17.086631588038617,
+          "liquidityUsd": 100,
+          "volumeUsd": 872.8089032632809,
+          "traders": 18,
+          "url": "https://manifold.markets/KevinBlaw/will-trump-pardon-maduro",
+          "slug": "will-trump-pardon-maduro",
+          "category": null,
+          "resolutionDate": "2030-01-04T14:15:00.000Z"
+        },
+        {
+          "id": "mf-nEPdNdU55s",
+          "title": "Will Maduro be released from U.S. custody before his wife?",
+          "source": "Manifold",
+          "prob": 17.513549031498705,
+          "liquidityUsd": 100,
+          "volumeUsd": 252.83680471144382,
+          "traders": 9,
+          "url": "https://manifold.markets/realTomBayes/will-maduro-be-released-from-us-cus",
+          "slug": "will-maduro-be-released-from-us-cus",
+          "category": null,
+          "resolutionDate": "2026-12-31T19:49:00.000Z"
+        },
+        {
+          "id": "mf-qECy0N56RZ",
+          "title": "End of 2026, will Tumbles think it was good Trump unilaterally removed Maduro?",
+          "source": "Manifold",
+          "prob": 30,
+          "liquidityUsd": 100,
+          "volumeUsd": 1106.2480733870464,
+          "traders": 28,
+          "url": "https://manifold.markets/Tumbles/at-the-end-of-2026-will-tumbles-thi",
+          "slug": "at-the-end-of-2026-will-tumbles-thi",
+          "category": null,
+          "resolutionDate": "2026-12-31T23:59:00.000Z"
+        },
+        {
+          "id": "mf-8Q5APAlhl6",
+          "title": "Will Maduro have a trial in USA during 2026?",
+          "source": "Manifold",
+          "prob": 10.352939015352023,
+          "liquidityUsd": 100,
+          "volumeUsd": 1980.6970073727637,
+          "traders": 20,
+          "url": "https://manifold.markets/SebastiánOrtega/will-maduro-have-a-trial-in-usa-dur",
+          "slug": "will-maduro-have-a-trial-in-usa-dur",
+          "category": null,
+          "resolutionDate": "2026-12-31T23:59:00.000Z"
+        },
+        {
+          "id": "mf-nR0AhUQELQ",
+          "title": "Will Maduro escape prosecution through a deal with the US government?",
+          "source": "Manifold",
+          "prob": 20.361189893313114,
+          "liquidityUsd": 100,
+          "volumeUsd": 514.7481759121977,
+          "traders": 16,
+          "url": "https://manifold.markets/bens/will-maduro-escape-prosecution-thro",
+          "slug": "will-maduro-escape-prosecution-thro",
+          "category": null,
+          "resolutionDate": "2026-12-31T23:59:00.000Z"
+        }
+      ],
+      "_ms": 771
+    }
+  }
+}
