@@ -1,5 +1,5 @@
 {
-  "snapshotAt": "2026-10-10T21:17:12+00:00",
+  "snapshotAt": "2026-10-11T04:37:57+00:00",
   "schemaVersion": 1,
   "sources": {
     "vdem": {
@@ -196,7 +196,7 @@
         "deliberative: 404 Client Error: Not Found for url: https://ourworldindata.org/grapher/deliberative-democracy-index.csv?country=Venezuela&v=1",
         "egalitarian: 404 Client Error: Not Found for url: https://ourworldindata.org/grapher/egalitarian-democracy-index.csv?country=Venezuela&v=1"
       ],
-      "_ms": 5689
+      "_ms": 5680
     },
     "gdelt": {
       "ok": true,
@@ -205,576 +205,253 @@
       "timespan": "90d",
       "queries": [
         {
-          "key": "venezuela",
-          "label": "Cobertura general",
-          "query": "venezuela",
+          "key": "sanctions",
+          "label": "Sanciones / OFAC",
+          "query": "venezuela (sanction OR sanción OR ofac OR chevron)",
           "series": [
             {
-              "date": "2026-07-13",
-              "value": 1101
-            },
-            {
               "date": "2026-07-14",
-              "value": 1312
+              "value": 15
             },
             {
               "date": "2026-07-15",
-              "value": 1439
+              "value": 7
             },
             {
               "date": "2026-07-16",
-              "value": 1450
-            },
-            {
-              "date": "2026-07-17",
-              "value": 1603
-            },
-            {
-              "date": "2026-07-18",
-              "value": 1232
-            },
-            {
-              "date": "2026-07-19",
-              "value": 881
-            },
-            {
-              "date": "2026-07-20",
-              "value": 867
-            },
-            {
-              "date": "2026-07-21",
-              "value": 1408
-            },
-            {
-              "date": "2026-07-22",
-              "value": 1984
-            },
-            {
-              "date": "2026-07-23",
-              "value": 1304
-            },
-            {
-              "date": "2026-07-24",
-              "value": 940
-            },
-            {
-              "date": "2026-07-25",
-              "value": 942
-            },
-            {
-              "date": "2026-07-26",
-              "value": 624
-            },
-            {
-              "date": "2026-07-27",
-              "value": 849
-            },
-            {
-              "date": "2026-07-28",
-              "value": 1313
-            },
-            {
-              "date": "2026-07-29",
-              "value": 1146
-            },
-            {
-              "date": "2026-07-30",
-              "value": 1183
-            },
-            {
-              "date": "2026-07-31",
-              "value": 903
-            },
-            {
-              "date": "2026-08-01",
-              "value": 850
-            },
-            {
-              "date": "2026-08-02",
-              "value": 772
-            },
-            {
-              "date": "2026-08-03",
-              "value": 978
-            },
-            {
-              "date": "2026-08-04",
-              "value": 1364
-            },
-            {
-              "date": "2026-08-05",
-              "value": 1076
-            },
-            {
-              "date": "2026-08-06",
-              "value": 1063
-            },
-            {
-              "date": "2026-08-07",
-              "value": 861
-            },
-            {
-              "date": "2026-08-08",
-              "value": 693
-            },
-            {
-              "date": "2026-08-09",
-              "value": 573
-            },
-            {
-              "date": "2026-08-10",
-              "value": 1378
-            },
-            {
-              "date": "2026-08-11",
-              "value": 1813
-            },
-            {
-              "date": "2026-08-12",
-              "value": 1132
-            },
-            {
-              "date": "2026-08-13",
-              "value": 1380
-            },
-            {
-              "date": "2026-08-14",
-              "value": 1378
-            },
-            {
-              "date": "2026-08-15",
-              "value": 951
-            },
-            {
-              "date": "2026-08-16",
-              "value": 567
-            },
-            {
-              "date": "2026-08-17",
-              "value": 643
-            },
-            {
-              "date": "2026-08-18",
-              "value": 1188
-            },
-            {
-              "date": "2026-08-19",
-              "value": 1049
-            },
-            {
-              "date": "2026-08-20",
-              "value": 1004
-            },
-            {
-              "date": "2026-08-21",
-              "value": 930
-            },
-            {
-              "date": "2026-08-22",
-              "value": 518
-            },
-            {
-              "date": "2026-08-23",
-              "value": 461
-            },
-            {
-              "date": "2026-08-24",
-              "value": 486
-            },
-            {
-              "date": "2026-08-25",
-              "value": 749
-            },
-            {
-              "date": "2026-08-26",
-              "value": 924
-            },
-            {
-              "date": "2026-08-27",
-              "value": 962
-            },
-            {
-              "date": "2026-08-28",
-              "value": 772
-            },
-            {
-              "date": "2026-08-29",
-              "value": 1748
-            },
-            {
-              "date": "2026-08-30",
-              "value": 1058
-            },
-            {
-              "date": "2026-08-31",
-              "value": 1107
-            },
-            {
-              "date": "2026-09-01",
-              "value": 1062
-            },
-            {
-              "date": "2026-09-02",
-              "value": 993
-            },
-            {
-              "date": "2026-09-03",
-              "value": 1242
-            },
-            {
-              "date": "2026-09-04",
-              "value": 1113
-            },
-            {
-              "date": "2026-09-05",
-              "value": 888
-            },
-            {
-              "date": "2026-09-06",
-              "value": 541
-            },
-            {
-              "date": "2026-09-07",
-              "value": 737
-            },
-            {
-              "date": "2026-09-08",
-              "value": 549
-            },
-            {
-              "date": "2026-09-09",
-              "value": 997
-            },
-            {
-              "date": "2026-09-10",
-              "value": 968
-            },
-            {
-              "date": "2026-09-11",
-              "value": 917
-            },
-            {
-              "date": "2026-09-12",
-              "value": 538
-            },
-            {
-              "date": "2026-09-13",
-              "value": 147
-            },
-            {
-              "date": "2026-09-20",
-              "value": 708
-            },
-            {
-              "date": "2026-09-21",
-              "value": 975
-            },
-            {
-              "date": "2026-09-22",
-              "value": 1264
-            },
-            {
-              "date": "2026-09-23",
-              "value": 1606
-            },
-            {
-              "date": "2026-09-24",
-              "value": 1515
-            },
-            {
-              "date": "2026-09-25",
-              "value": 357
-            },
-            {
-              "date": "2026-09-27",
-              "value": 436
-            },
-            {
-              "date": "2026-09-28",
-              "value": 695
-            },
-            {
-              "date": "2026-09-29",
-              "value": 586
-            },
-            {
-              "date": "2026-09-30",
-              "value": 600
-            },
-            {
-              "date": "2026-10-01",
-              "value": 1057
-            },
-            {
-              "date": "2026-10-02",
-              "value": 337
-            },
-            {
-              "date": "2026-10-06",
-              "value": 9
-            },
-            {
-              "date": "2026-10-08",
-              "value": 4
-            },
-            {
-              "date": "2026-10-10",
-              "value": 16
-            }
-          ]
-        },
-        {
-          "key": "maduro",
-          "label": "Maduro / régimen",
-          "query": "venezuela maduro",
-          "series": [
-            {
-              "date": "2026-07-13",
-              "value": 28
-            },
-            {
-              "date": "2026-07-14",
-              "value": 50
-            },
-            {
-              "date": "2026-07-15",
-              "value": 115
-            },
-            {
-              "date": "2026-07-16",
-              "value": 163
-            },
-            {
-              "date": "2026-07-17",
-              "value": 106
-            },
-            {
-              "date": "2026-07-18",
-              "value": 26
-            },
-            {
-              "date": "2026-07-19",
-              "value": 23
-            },
-            {
-              "date": "2026-07-20",
-              "value": 38
-            },
-            {
-              "date": "2026-07-21",
-              "value": 112
-            },
-            {
-              "date": "2026-07-22",
-              "value": 368
-            },
-            {
-              "date": "2026-07-23",
-              "value": 74
-            },
-            {
-              "date": "2026-07-24",
-              "value": 47
-            },
-            {
-              "date": "2026-07-25",
-              "value": 58
-            },
-            {
-              "date": "2026-07-26",
-              "value": 28
-            },
-            {
-              "date": "2026-07-27",
-              "value": 26
-            },
-            {
-              "date": "2026-07-28",
-              "value": 32
-            },
-            {
-              "date": "2026-07-29",
-              "value": 51
-            },
-            {
-              "date": "2026-07-30",
-              "value": 20
-            },
-            {
-              "date": "2026-07-31",
-              "value": 28
-            },
-            {
-              "date": "2026-08-01",
-              "value": 19
-            },
-            {
-              "date": "2026-08-02",
-              "value": 41
-            },
-            {
-              "date": "2026-08-03",
-              "value": 62
-            },
-            {
-              "date": "2026-08-04",
-              "value": 46
-            },
-            {
-              "date": "2026-08-05",
-              "value": 26
-            },
-            {
-              "date": "2026-08-06",
-              "value": 89
-            },
-            {
-              "date": "2026-08-07",
-              "value": 40
-            },
-            {
-              "date": "2026-08-08",
-              "value": 43
-            },
-            {
-              "date": "2026-08-09",
               "value": 6
             },
             {
-              "date": "2026-08-10",
-              "value": 23
+              "date": "2026-07-17",
+              "value": 10
             },
             {
-              "date": "2026-08-11",
-              "value": 34
-            },
-            {
-              "date": "2026-08-12",
-              "value": 23
-            },
-            {
-              "date": "2026-08-13",
-              "value": 79
-            },
-            {
-              "date": "2026-08-14",
-              "value": 55
-            },
-            {
-              "date": "2026-08-15",
-              "value": 126
-            },
-            {
-              "date": "2026-08-16",
-              "value": 31
-            },
-            {
-              "date": "2026-08-17",
-              "value": 32
-            },
-            {
-              "date": "2026-08-18",
-              "value": 41
-            },
-            {
-              "date": "2026-08-19",
-              "value": 50
-            },
-            {
-              "date": "2026-08-20",
-              "value": 45
-            },
-            {
-              "date": "2026-08-21",
-              "value": 19
-            },
-            {
-              "date": "2026-08-22",
-              "value": 12
-            },
-            {
-              "date": "2026-08-23",
-              "value": 13
-            },
-            {
-              "date": "2026-08-24",
+              "date": "2026-07-18",
               "value": 8
             },
             {
-              "date": "2026-08-25",
-              "value": 20
+              "date": "2026-07-19",
+              "value": 2
             },
             {
-              "date": "2026-08-26",
-              "value": 13
+              "date": "2026-07-20",
+              "value": 5
             },
             {
-              "date": "2026-08-27",
-              "value": 20
+              "date": "2026-07-21",
+              "value": 7
             },
             {
-              "date": "2026-08-28",
-              "value": 69
-            },
-            {
-              "date": "2026-08-29",
-              "value": 421
-            },
-            {
-              "date": "2026-08-30",
-              "value": 115
-            },
-            {
-              "date": "2026-08-31",
-              "value": 183
-            },
-            {
-              "date": "2026-09-01",
-              "value": 184
-            },
-            {
-              "date": "2026-09-02",
-              "value": 141
-            },
-            {
-              "date": "2026-09-03",
-              "value": 239
-            },
-            {
-              "date": "2026-09-04",
-              "value": 138
-            },
-            {
-              "date": "2026-09-05",
-              "value": 128
-            },
-            {
-              "date": "2026-09-06",
-              "value": 47
-            },
-            {
-              "date": "2026-09-07",
+              "date": "2026-07-22",
               "value": 12
             },
             {
-              "date": "2026-09-08",
-              "value": 38
+              "date": "2026-07-23",
+              "value": 12
             },
             {
-              "date": "2026-09-09",
-              "value": 105
+              "date": "2026-07-24",
+              "value": 40
             },
             {
-              "date": "2026-09-10",
+              "date": "2026-07-25",
+              "value": 34
+            },
+            {
+              "date": "2026-07-26",
+              "value": 5
+            },
+            {
+              "date": "2026-07-27",
+              "value": 2
+            },
+            {
+              "date": "2026-07-28",
+              "value": 39
+            },
+            {
+              "date": "2026-07-29",
+              "value": 9
+            },
+            {
+              "date": "2026-07-30",
+              "value": 15
+            },
+            {
+              "date": "2026-07-31",
+              "value": 14
+            },
+            {
+              "date": "2026-08-01",
+              "value": 8
+            },
+            {
+              "date": "2026-08-02",
+              "value": 4
+            },
+            {
+              "date": "2026-08-03",
+              "value": 35
+            },
+            {
+              "date": "2026-08-04",
+              "value": 47
+            },
+            {
+              "date": "2026-08-05",
+              "value": 23
+            },
+            {
+              "date": "2026-08-06",
+              "value": 16
+            },
+            {
+              "date": "2026-08-07",
+              "value": 6
+            },
+            {
+              "date": "2026-08-08",
+              "value": 7
+            },
+            {
+              "date": "2026-08-09",
+              "value": 2
+            },
+            {
+              "date": "2026-08-10",
+              "value": 4
+            },
+            {
+              "date": "2026-08-11",
+              "value": 29
+            },
+            {
+              "date": "2026-08-12",
+              "value": 10
+            },
+            {
+              "date": "2026-08-13",
+              "value": 7
+            },
+            {
+              "date": "2026-08-14",
+              "value": 7
+            },
+            {
+              "date": "2026-08-15",
+              "value": 5
+            },
+            {
+              "date": "2026-08-16",
+              "value": 12
+            },
+            {
+              "date": "2026-08-17",
+              "value": 9
+            },
+            {
+              "date": "2026-08-18",
+              "value": 12
+            },
+            {
+              "date": "2026-08-19",
+              "value": 35
+            },
+            {
+              "date": "2026-08-20",
+              "value": 25
+            },
+            {
+              "date": "2026-08-21",
+              "value": 16
+            },
+            {
+              "date": "2026-08-22",
+              "value": 8
+            },
+            {
+              "date": "2026-08-23",
+              "value": 8
+            },
+            {
+              "date": "2026-08-24",
+              "value": 5
+            },
+            {
+              "date": "2026-08-25",
+              "value": 3
+            },
+            {
+              "date": "2026-08-26",
+              "value": 16
+            },
+            {
+              "date": "2026-08-27",
+              "value": 10
+            },
+            {
+              "date": "2026-08-28",
+              "value": 24
+            },
+            {
+              "date": "2026-08-29",
+              "value": 89
+            },
+            {
+              "date": "2026-08-30",
               "value": 59
             },
             {
+              "date": "2026-08-31",
+              "value": 34
+            },
+            {
+              "date": "2026-09-01",
+              "value": 175
+            },
+            {
+              "date": "2026-09-02",
+              "value": 177
+            },
+            {
+              "date": "2026-09-03",
+              "value": 214
+            },
+            {
+              "date": "2026-09-04",
+              "value": 37
+            },
+            {
+              "date": "2026-09-05",
+              "value": 23
+            },
+            {
+              "date": "2026-09-06",
+              "value": 44
+            },
+            {
+              "date": "2026-09-07",
+              "value": 5
+            },
+            {
+              "date": "2026-09-08",
+              "value": 15
+            },
+            {
+              "date": "2026-09-09",
+              "value": 23
+            },
+            {
+              "date": "2026-09-10",
+              "value": 13
+            },
+            {
               "date": "2026-09-11",
-              "value": 70
+              "value": 37
             },
             {
               "date": "2026-09-12",
-              "value": 17
+              "value": 13
             },
             {
               "date": "2026-09-13",
@@ -782,396 +459,79 @@
             },
             {
               "date": "2026-09-20",
-              "value": 31
+              "value": 17
             },
             {
               "date": "2026-09-21",
-              "value": 33
+              "value": 8
             },
             {
               "date": "2026-09-22",
-              "value": 111
-            },
-            {
-              "date": "2026-09-23",
-              "value": 130
-            },
-            {
-              "date": "2026-09-24",
-              "value": 271
-            },
-            {
-              "date": "2026-09-25",
-              "value": 12
-            },
-            {
-              "date": "2026-09-27",
-              "value": 31
-            },
-            {
-              "date": "2026-09-28",
-              "value": 47
-            },
-            {
-              "date": "2026-09-29",
-              "value": 37
-            },
-            {
-              "date": "2026-09-30",
               "value": 19
             },
             {
-              "date": "2026-10-01",
-              "value": 52
+              "date": "2026-09-23",
+              "value": 18
             },
             {
-              "date": "2026-10-02",
+              "date": "2026-09-24",
+              "value": 10
+            },
+            {
+              "date": "2026-09-25",
+              "value": 3
+            },
+            {
+              "date": "2026-09-27",
+              "value": 11
+            },
+            {
+              "date": "2026-09-28",
+              "value": 15
+            },
+            {
+              "date": "2026-09-29",
+              "value": 25
+            },
+            {
+              "date": "2026-09-30",
+              "value": 16
+            },
+            {
+              "date": "2026-10-01",
               "value": 32
             },
             {
+              "date": "2026-10-02",
+              "value": 6
+            },
+            {
               "date": "2026-10-06",
+              "value": 0
+            },
+            {
+              "date": "2026-10-08",
+              "value": 0
+            },
+            {
+              "date": "2026-10-10",
               "value": 1
-            },
-            {
-              "date": "2026-10-08",
-              "value": 0
-            },
-            {
-              "date": "2026-10-10",
-              "value": 0
-            }
-          ]
-        },
-        {
-          "key": "protests",
-          "label": "Protestas",
-          "query": "venezuela (protest OR protesta OR manifestación)",
-          "series": [
-            {
-              "date": "2026-07-13",
-              "value": 5
-            },
-            {
-              "date": "2026-07-14",
-              "value": 32
-            },
-            {
-              "date": "2026-07-15",
-              "value": 16
-            },
-            {
-              "date": "2026-07-16",
-              "value": 16
-            },
-            {
-              "date": "2026-07-17",
-              "value": 31
-            },
-            {
-              "date": "2026-07-18",
-              "value": 6
-            },
-            {
-              "date": "2026-07-19",
-              "value": 16
-            },
-            {
-              "date": "2026-07-20",
-              "value": 5
-            },
-            {
-              "date": "2026-07-21",
-              "value": 14
-            },
-            {
-              "date": "2026-07-22",
-              "value": 100
-            },
-            {
-              "date": "2026-07-23",
-              "value": 32
-            },
-            {
-              "date": "2026-07-24",
-              "value": 7
-            },
-            {
-              "date": "2026-07-25",
-              "value": 22
-            },
-            {
-              "date": "2026-07-26",
-              "value": 16
-            },
-            {
-              "date": "2026-07-27",
-              "value": 13
-            },
-            {
-              "date": "2026-07-28",
-              "value": 31
-            },
-            {
-              "date": "2026-07-29",
-              "value": 67
-            },
-            {
-              "date": "2026-07-30",
-              "value": 13
-            },
-            {
-              "date": "2026-07-31",
-              "value": 15
-            },
-            {
-              "date": "2026-08-01",
-              "value": 25
-            },
-            {
-              "date": "2026-08-02",
-              "value": 21
-            },
-            {
-              "date": "2026-08-03",
-              "value": 17
-            },
-            {
-              "date": "2026-08-04",
-              "value": 19
-            },
-            {
-              "date": "2026-08-05",
-              "value": 17
-            },
-            {
-              "date": "2026-08-06",
-              "value": 22
-            },
-            {
-              "date": "2026-08-07",
-              "value": 13
-            },
-            {
-              "date": "2026-08-08",
-              "value": 14
-            },
-            {
-              "date": "2026-08-09",
-              "value": 10
-            },
-            {
-              "date": "2026-08-10",
-              "value": 14
-            },
-            {
-              "date": "2026-08-11",
-              "value": 20
-            },
-            {
-              "date": "2026-08-12",
-              "value": 44
-            },
-            {
-              "date": "2026-08-13",
-              "value": 20
-            },
-            {
-              "date": "2026-08-14",
-              "value": 33
-            },
-            {
-              "date": "2026-08-15",
-              "value": 17
-            },
-            {
-              "date": "2026-08-16",
-              "value": 6
-            },
-            {
-              "date": "2026-08-17",
-              "value": 8
-            },
-            {
-              "date": "2026-08-18",
-              "value": 42
-            },
-            {
-              "date": "2026-08-19",
-              "value": 17
-            },
-            {
-              "date": "2026-08-20",
-              "value": 64
-            },
-            {
-              "date": "2026-08-21",
-              "value": 17
-            },
-            {
-              "date": "2026-08-22",
-              "value": 10
-            },
-            {
-              "date": "2026-08-23",
-              "value": 18
-            },
-            {
-              "date": "2026-08-24",
-              "value": 13
-            },
-            {
-              "date": "2026-08-25",
-              "value": 19
-            },
-            {
-              "date": "2026-08-26",
-              "value": 16
-            },
-            {
-              "date": "2026-08-27",
-              "value": 14
-            },
-            {
-              "date": "2026-08-28",
-              "value": 4
-            },
-            {
-              "date": "2026-08-29",
-              "value": 10
-            },
-            {
-              "date": "2026-08-30",
-              "value": 32
-            },
-            {
-              "date": "2026-08-31",
-              "value": 13
-            },
-            {
-              "date": "2026-09-01",
-              "value": 40
-            },
-            {
-              "date": "2026-09-02",
-              "value": 9
-            },
-            {
-              "date": "2026-09-03",
-              "value": 15
-            },
-            {
-              "date": "2026-09-04",
-              "value": 23
-            },
-            {
-              "date": "2026-09-05",
-              "value": 39
-            },
-            {
-              "date": "2026-09-06",
-              "value": 8
-            },
-            {
-              "date": "2026-09-07",
-              "value": 19
-            },
-            {
-              "date": "2026-09-08",
-              "value": 10
-            },
-            {
-              "date": "2026-09-09",
-              "value": 9
-            },
-            {
-              "date": "2026-09-10",
-              "value": 10
-            },
-            {
-              "date": "2026-09-11",
-              "value": 22
-            },
-            {
-              "date": "2026-09-12",
-              "value": 10
-            },
-            {
-              "date": "2026-09-13",
-              "value": 4
-            },
-            {
-              "date": "2026-09-20",
-              "value": 9
-            },
-            {
-              "date": "2026-09-21",
-              "value": 87
-            },
-            {
-              "date": "2026-09-22",
-              "value": 47
-            },
-            {
-              "date": "2026-09-23",
-              "value": 84
-            },
-            {
-              "date": "2026-09-24",
-              "value": 46
-            },
-            {
-              "date": "2026-09-25",
-              "value": 16
-            },
-            {
-              "date": "2026-09-27",
-              "value": 25
-            },
-            {
-              "date": "2026-09-28",
-              "value": 35
-            },
-            {
-              "date": "2026-09-29",
-              "value": 18
-            },
-            {
-              "date": "2026-09-30",
-              "value": 14
-            },
-            {
-              "date": "2026-10-01",
-              "value": 22
-            },
-            {
-              "date": "2026-10-02",
-              "value": 12
-            },
-            {
-              "date": "2026-10-06",
-              "value": 0
-            },
-            {
-              "date": "2026-10-08",
-              "value": 0
-            },
-            {
-              "date": "2026-10-10",
-              "value": 0
             }
           ]
         }
       ],
       "errors": [
-        "sanctions: 429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=venezuela+%28sanction+OR+sanci%C3%B3n+OR+ofac+OR+chevron%29&mode=timelinevolraw&format=json&timespan=90d"
+        "venezuela: 429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=venezuela&mode=timelinevolraw&format=json&timespan=90d",
+        "maduro: 429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=venezuela+maduro&mode=timelinevolraw&format=json&timespan=90d",
+        "protests: 429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=venezuela+%28protest+OR+protesta+OR+manifestaci%C3%B3n%29&mode=timelinevolraw&format=json&timespan=90d"
       ],
-      "_ms": 68276
+      "_ms": 50217
     },
     "foroPenal": {
       "ok": true,
       "source": "Foro Penal",
       "url": "https://foropenal.com/",
-      "fetchedAt": "2026-10-10T21:18:27+00:00",
+      "fetchedAt": "2026-10-11T04:38:54+00:00",
       "asOf": "2026-10-05",
       "total": 322,
       "categories": {
@@ -1181,13 +541,13 @@
         "Militares": 140,
         "Adolescentes": 0
       },
-      "_ms": 605
+      "_ms": 629
     },
     "predictionMarkets": {
       "ok": true,
       "source": "Polymarket Gamma + Manifold Markets",
       "url": "https://tuvzla.com/api/markets",
-      "fetchedAt": "2026-10-10T21:18:27.973Z",
+      "fetchedAt": "2026-10-11T04:38:54.938Z",
       "sources": {
         "polymarket": {
           "ok": true,
@@ -1195,7 +555,7 @@
         },
         "manifold": {
           "ok": true,
-          "count": 26
+          "count": 27
         }
       },
       "markets": [
@@ -1421,6 +781,19 @@
           "resolutionDate": "2026-12-31T23:59:00.000Z"
         },
         {
+          "id": "mf-Q0CsgU6E08",
+          "title": "Will Nicolas Maduro return to Venezuela before 2028?",
+          "source": "Manifold",
+          "prob": 18.161674467773583,
+          "liquidityUsd": 100,
+          "volumeUsd": 10,
+          "traders": 1,
+          "url": "https://manifold.markets/DudleyDOODOO/will-nicolas-maduro-return-to-venez-dclqhOEAUy",
+          "slug": "will-nicolas-maduro-return-to-venez-dclqhOEAUy",
+          "category": null,
+          "resolutionDate": "2027-12-31T11:00:00.000Z"
+        },
+        {
           "id": "mf-UIPES58Sps",
           "title": "Will Nicolás Maduro return to Venezuela in his life?",
           "source": "Manifold",
@@ -1538,7 +911,7 @@
           "resolutionDate": "2030-01-30T23:59:00.000Z"
         }
       ],
-      "_ms": 552
+      "_ms": 527
     }
   }
 }
