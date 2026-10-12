@@ -1,5 +1,5 @@
 {
-  "snapshotAt": "2026-10-12T04:53:04+00:00",
+  "snapshotAt": "2026-10-12T14:42:39+00:00",
   "schemaVersion": 1,
   "sources": {
     "vdem": {
@@ -196,7 +196,7 @@
         "deliberative: 404 Client Error: Not Found for url: https://ourworldindata.org/grapher/deliberative-democracy-index.csv?country=Venezuela&v=1",
         "egalitarian: 404 Client Error: Not Found for url: https://ourworldindata.org/grapher/egalitarian-democracy-index.csv?country=Venezuela&v=1"
       ],
-      "_ms": 5068
+      "_ms": 5835
     },
     "gdelt": {
       "ok": false,
@@ -210,13 +210,13 @@
         "protests: 429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=venezuela+%28protest+OR+protesta+OR+manifestaci%C3%B3n%29&mode=timelinevolraw&format=json&timespan=90d",
         "sanctions: 429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=venezuela+%28sanction+OR+sanci%C3%B3n+OR+ofac+OR+chevron%29&mode=timelinevolraw&format=json&timespan=90d"
       ],
-      "_ms": 44945
+      "_ms": 42880
     },
     "foroPenal": {
       "ok": true,
       "source": "Foro Penal",
       "url": "https://foropenal.com/",
-      "fetchedAt": "2026-10-12T04:53:56+00:00",
+      "fetchedAt": "2026-10-12T14:43:28+00:00",
       "asOf": "2026-10-05",
       "total": 322,
       "categories": {
@@ -226,37 +226,24 @@
         "Militares": 140,
         "Adolescentes": 0
       },
-      "_ms": 1218
+      "_ms": 636
     },
     "predictionMarkets": {
       "ok": true,
       "source": "Polymarket Gamma + Manifold Markets",
       "url": "https://tuvzla.com/api/markets",
-      "fetchedAt": "2026-10-12T04:53:56.999Z",
+      "fetchedAt": "2026-10-12T14:43:29.281Z",
       "sources": {
         "polymarket": {
           "ok": true,
-          "count": 1
+          "count": 0
         },
         "manifold": {
           "ok": true,
-          "count": 27
+          "count": 28
         }
       },
       "markets": [
-        {
-          "id": "pm-1107737",
-          "title": "Will the U.S. invade Venezuela by December 31, 2026?",
-          "source": "Polymarket",
-          "prob": 3.25,
-          "liquidityUsd": 81417.12139,
-          "volumeUsd": 251490.206625,
-          "traders": 161.21,
-          "url": "https://polymarket.com/event/will-the-us-invade-venezuela-by-december-31-2026",
-          "slug": "will-the-us-invade-venezuela-by-december-31-2026",
-          "category": null,
-          "resolutionDate": "2027-01-01T04:59:00Z"
-        },
         {
           "id": "mf-eRy26fcDdHYMEl7k8rKe",
           "title": "Will there be a civil war in Venezuela before 2050?",
@@ -570,6 +557,19 @@
           "resolutionDate": "2026-12-31T10:17:00.000Z"
         },
         {
+          "id": "mf-SI29cs0ptN",
+          "title": "Will Nicolas Maduro be prosecuted and sentenced to life in prison before 2030?",
+          "source": "Manifold",
+          "prob": 49.99999999752476,
+          "liquidityUsd": 100,
+          "volumeUsd": 1.9999999950495415,
+          "traders": 1,
+          "url": "https://manifold.markets/DudleyDOODOO/will-nicolas-maduro-be-prosecuted-a",
+          "slug": "will-nicolas-maduro-be-prosecuted-a",
+          "category": null,
+          "resolutionDate": "2029-12-31T11:00:00.000Z"
+        },
+        {
           "id": "mf-nEPdNdU55s",
           "title": "Will Maduro be released from U.S. custody before his wife?",
           "source": "Manifold",
@@ -609,7 +609,7 @@
           "resolutionDate": "2030-01-30T23:59:00.000Z"
         }
       ],
-      "_ms": 956
+      "_ms": 647
     }
   }
 }
