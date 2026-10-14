@@ -1,5 +1,5 @@
 {
-  "snapshotAt": "2026-10-14T03:58:10+00:00",
+  "snapshotAt": "2026-10-14T11:23:28+00:00",
   "schemaVersion": 1,
   "sources": {
     "vdem": {
@@ -196,7 +196,7 @@
         "deliberative: 404 Client Error: Not Found for url: https://ourworldindata.org/grapher/deliberative-democracy-index.csv?country=Venezuela&v=1",
         "egalitarian: 404 Client Error: Not Found for url: https://ourworldindata.org/grapher/egalitarian-democracy-index.csv?country=Venezuela&v=1"
       ],
-      "_ms": 7242
+      "_ms": 5583
     },
     "gdelt": {
       "ok": true,
@@ -513,13 +513,13 @@
         "maduro: 429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=venezuela+maduro&mode=timelinevolraw&format=json&timespan=90d",
         "sanctions: 429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=venezuela+%28sanction+OR+sanci%C3%B3n+OR+ofac+OR+chevron%29&mode=timelinevolraw&format=json&timespan=90d"
       ],
-      "_ms": 47395
+      "_ms": 49189
     },
     "foroPenal": {
       "ok": true,
       "source": "Foro Penal",
       "url": "https://foropenal.com/",
-      "fetchedAt": "2026-10-14T03:59:06+00:00",
+      "fetchedAt": "2026-10-14T11:24:23+00:00",
       "asOf": "2026-10-05",
       "total": 322,
       "categories": {
@@ -529,13 +529,13 @@
         "Militares": 140,
         "Adolescentes": 0
       },
-      "_ms": 748
+      "_ms": 434
     },
     "predictionMarkets": {
       "ok": true,
       "source": "Polymarket Gamma + Manifold Markets",
       "url": "https://tuvzla.com/api/markets",
-      "fetchedAt": "2026-10-14T03:59:06.946Z",
+      "fetchedAt": "2026-10-14T11:24:23.937Z",
       "sources": {
         "polymarket": {
           "ok": true,
@@ -889,9 +889,9 @@
           "id": "mf-qECy0N56RZ",
           "title": "End of 2026, will Tumbles think it was good Trump unilaterally removed Maduro?",
           "source": "Manifold",
-          "prob": 3.1872050497079134,
+          "prob": 5.259231141457634,
           "liquidityUsd": 100,
-          "volumeUsd": 1219.0755642532292,
+          "volumeUsd": 1274.3210518185397,
           "traders": 30,
           "url": "https://manifold.markets/Tumbles/at-the-end-of-2026-will-tumbles-thi",
           "slug": "at-the-end-of-2026-will-tumbles-thi",
@@ -912,7 +912,7 @@
           "resolutionDate": "2030-01-30T23:59:00.000Z"
         }
       ],
-      "_ms": 703
+      "_ms": 340
     }
   }
 }
