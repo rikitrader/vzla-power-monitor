@@ -1,5 +1,5 @@
 {
-  "snapshotAt": "2026-10-17T10:17:48+00:00",
+  "snapshotAt": "2026-10-17T15:09:35+00:00",
   "schemaVersion": 1,
   "sources": {
     "vdem": {
@@ -196,27 +196,330 @@
         "deliberative: 404 Client Error: Not Found for url: https://ourworldindata.org/grapher/deliberative-democracy-index.csv?country=Venezuela&v=1",
         "egalitarian: 404 Client Error: Not Found for url: https://ourworldindata.org/grapher/egalitarian-democracy-index.csv?country=Venezuela&v=1"
       ],
-      "_ms": 4327
+      "_ms": 5879
     },
     "gdelt": {
-      "ok": false,
+      "ok": true,
       "source": "GDELT 2.0 DOC API",
       "url": "https://blog.gdeltproject.org/gdelt-doc-2-0-api-debuts/",
       "timespan": "90d",
-      "queries": [],
+      "queries": [
+        {
+          "key": "maduro",
+          "label": "Maduro / régimen",
+          "query": "venezuela maduro",
+          "series": [
+            {
+              "date": "2026-07-20",
+              "value": 38
+            },
+            {
+              "date": "2026-07-21",
+              "value": 112
+            },
+            {
+              "date": "2026-07-22",
+              "value": 368
+            },
+            {
+              "date": "2026-07-23",
+              "value": 74
+            },
+            {
+              "date": "2026-07-24",
+              "value": 47
+            },
+            {
+              "date": "2026-07-25",
+              "value": 58
+            },
+            {
+              "date": "2026-07-26",
+              "value": 28
+            },
+            {
+              "date": "2026-07-27",
+              "value": 26
+            },
+            {
+              "date": "2026-07-28",
+              "value": 32
+            },
+            {
+              "date": "2026-07-29",
+              "value": 51
+            },
+            {
+              "date": "2026-07-30",
+              "value": 20
+            },
+            {
+              "date": "2026-07-31",
+              "value": 28
+            },
+            {
+              "date": "2026-08-01",
+              "value": 19
+            },
+            {
+              "date": "2026-08-02",
+              "value": 41
+            },
+            {
+              "date": "2026-08-03",
+              "value": 62
+            },
+            {
+              "date": "2026-08-04",
+              "value": 46
+            },
+            {
+              "date": "2026-08-05",
+              "value": 26
+            },
+            {
+              "date": "2026-08-06",
+              "value": 89
+            },
+            {
+              "date": "2026-08-07",
+              "value": 40
+            },
+            {
+              "date": "2026-08-08",
+              "value": 43
+            },
+            {
+              "date": "2026-08-09",
+              "value": 6
+            },
+            {
+              "date": "2026-08-10",
+              "value": 23
+            },
+            {
+              "date": "2026-08-11",
+              "value": 34
+            },
+            {
+              "date": "2026-08-12",
+              "value": 23
+            },
+            {
+              "date": "2026-08-13",
+              "value": 79
+            },
+            {
+              "date": "2026-08-14",
+              "value": 55
+            },
+            {
+              "date": "2026-08-15",
+              "value": 126
+            },
+            {
+              "date": "2026-08-16",
+              "value": 31
+            },
+            {
+              "date": "2026-08-17",
+              "value": 32
+            },
+            {
+              "date": "2026-08-18",
+              "value": 41
+            },
+            {
+              "date": "2026-08-19",
+              "value": 50
+            },
+            {
+              "date": "2026-08-20",
+              "value": 45
+            },
+            {
+              "date": "2026-08-21",
+              "value": 19
+            },
+            {
+              "date": "2026-08-22",
+              "value": 12
+            },
+            {
+              "date": "2026-08-23",
+              "value": 13
+            },
+            {
+              "date": "2026-08-24",
+              "value": 8
+            },
+            {
+              "date": "2026-08-25",
+              "value": 20
+            },
+            {
+              "date": "2026-08-26",
+              "value": 13
+            },
+            {
+              "date": "2026-08-27",
+              "value": 20
+            },
+            {
+              "date": "2026-08-28",
+              "value": 69
+            },
+            {
+              "date": "2026-08-29",
+              "value": 421
+            },
+            {
+              "date": "2026-08-30",
+              "value": 115
+            },
+            {
+              "date": "2026-08-31",
+              "value": 183
+            },
+            {
+              "date": "2026-09-01",
+              "value": 184
+            },
+            {
+              "date": "2026-09-02",
+              "value": 141
+            },
+            {
+              "date": "2026-09-03",
+              "value": 239
+            },
+            {
+              "date": "2026-09-04",
+              "value": 138
+            },
+            {
+              "date": "2026-09-05",
+              "value": 128
+            },
+            {
+              "date": "2026-09-06",
+              "value": 47
+            },
+            {
+              "date": "2026-09-07",
+              "value": 12
+            },
+            {
+              "date": "2026-09-08",
+              "value": 38
+            },
+            {
+              "date": "2026-09-09",
+              "value": 105
+            },
+            {
+              "date": "2026-09-10",
+              "value": 59
+            },
+            {
+              "date": "2026-09-11",
+              "value": 70
+            },
+            {
+              "date": "2026-09-12",
+              "value": 17
+            },
+            {
+              "date": "2026-09-13",
+              "value": 3
+            },
+            {
+              "date": "2026-09-20",
+              "value": 31
+            },
+            {
+              "date": "2026-09-21",
+              "value": 33
+            },
+            {
+              "date": "2026-09-22",
+              "value": 111
+            },
+            {
+              "date": "2026-09-23",
+              "value": 130
+            },
+            {
+              "date": "2026-09-24",
+              "value": 271
+            },
+            {
+              "date": "2026-09-25",
+              "value": 12
+            },
+            {
+              "date": "2026-09-27",
+              "value": 31
+            },
+            {
+              "date": "2026-09-28",
+              "value": 47
+            },
+            {
+              "date": "2026-09-29",
+              "value": 37
+            },
+            {
+              "date": "2026-09-30",
+              "value": 19
+            },
+            {
+              "date": "2026-10-01",
+              "value": 52
+            },
+            {
+              "date": "2026-10-02",
+              "value": 32
+            },
+            {
+              "date": "2026-10-06",
+              "value": 1
+            },
+            {
+              "date": "2026-10-08",
+              "value": 0
+            },
+            {
+              "date": "2026-10-10",
+              "value": 0
+            },
+            {
+              "date": "2026-10-15",
+              "value": 64
+            },
+            {
+              "date": "2026-10-16",
+              "value": 41
+            },
+            {
+              "date": "2026-10-17",
+              "value": 14
+            }
+          ]
+        }
+      ],
       "errors": [
         "venezuela: 429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=venezuela&mode=timelinevolraw&format=json&timespan=90d",
-        "maduro: 429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=venezuela+maduro&mode=timelinevolraw&format=json&timespan=90d",
         "protests: 429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=venezuela+%28protest+OR+protesta+OR+manifestaci%C3%B3n%29&mode=timelinevolraw&format=json&timespan=90d",
         "sanctions: 429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=venezuela+%28sanction+OR+sanci%C3%B3n+OR+ofac+OR+chevron%29&mode=timelinevolraw&format=json&timespan=90d"
       ],
-      "_ms": 38365
+      "_ms": 55180
     },
     "foroPenal": {
       "ok": true,
       "source": "Foro Penal",
       "url": "https://foropenal.com/",
-      "fetchedAt": "2026-10-17T10:18:31+00:00",
+      "fetchedAt": "2026-10-17T15:10:36+00:00",
       "asOf": "2026-10-15",
       "total": 322,
       "categories": {
@@ -226,13 +529,13 @@
         "Militares": 140,
         "Adolescentes": 0
       },
-      "_ms": 778
+      "_ms": 418
     },
     "predictionMarkets": {
       "ok": true,
       "source": "Polymarket Gamma + Manifold Markets",
       "url": "https://tuvzla.com/api/markets",
-      "fetchedAt": "2026-10-17T10:18:32.135Z",
+      "fetchedAt": "2026-10-17T15:10:37.027Z",
       "sources": {
         "polymarket": {
           "ok": true,
@@ -249,7 +552,7 @@
           "title": "Will Donald Trump be the leader of Venezuela end of 2026?",
           "source": "Polymarket",
           "prob": 0.05,
-          "liquidityUsd": 122898.29584,
+          "liquidityUsd": 122221.8666,
           "volumeUsd": 1149212.001751,
           "traders": 0,
           "url": "https://polymarket.com/event/will-donald-trump-be-the-leader-of-venezuela-end-of-2026",
@@ -622,7 +925,7 @@
           "resolutionDate": "2030-01-30T23:59:00.000Z"
         }
       ],
-      "_ms": 540
+      "_ms": 462
     }
   }
 }
