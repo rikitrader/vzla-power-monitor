@@ -1,5 +1,5 @@
 {
-  "snapshotAt": "2026-10-20T11:04:16+00:00",
+  "snapshotAt": "2026-10-20T16:30:09+00:00",
   "schemaVersion": 1,
   "sources": {
     "vdem": {
@@ -196,7 +196,7 @@
         "deliberative: 404 Client Error: Not Found for url: https://ourworldindata.org/grapher/deliberative-democracy-index.csv?country=Venezuela&v=1",
         "egalitarian: 404 Client Error: Not Found for url: https://ourworldindata.org/grapher/egalitarian-democracy-index.csv?country=Venezuela&v=1"
       ],
-      "_ms": 6014
+      "_ms": 8127
     },
     "gdelt": {
       "ok": false,
@@ -210,13 +210,13 @@
         "protests: 429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=venezuela+%28protest+OR+protesta+OR+manifestaci%C3%B3n%29&mode=timelinevolraw&format=json&timespan=90d",
         "sanctions: 429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=venezuela+%28sanction+OR+sanci%C3%B3n+OR+ofac+OR+chevron%29&mode=timelinevolraw&format=json&timespan=90d"
       ],
-      "_ms": 52086
+      "_ms": 66472
     },
     "foroPenal": {
       "ok": true,
       "source": "Foro Penal",
       "url": "https://foropenal.com/",
-      "fetchedAt": "2026-10-20T11:05:14+00:00",
+      "fetchedAt": "2026-10-20T16:31:24+00:00",
       "asOf": "2026-04-27",
       "total": 322,
       "categories": {
@@ -226,13 +226,13 @@
         "Militares": 140,
         "Adolescentes": 0
       },
-      "_ms": 619
+      "_ms": 420
     },
     "predictionMarkets": {
       "ok": true,
       "source": "Polymarket Gamma + Manifold Markets",
       "url": "https://tuvzla.com/api/markets",
-      "fetchedAt": "2026-10-20T11:05:15.314Z",
+      "fetchedAt": "2026-10-20T16:31:24.912Z",
       "sources": {
         "polymarket": {
           "ok": true,
@@ -609,7 +609,7 @@
           "resolutionDate": "2030-01-30T23:59:00.000Z"
         }
       ],
-      "_ms": 521
+      "_ms": 590
     }
   }
 }
