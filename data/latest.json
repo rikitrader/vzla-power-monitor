@@ -1,5 +1,5 @@
 {
-  "snapshotAt": "2026-10-20T21:21:26+00:00",
+  "snapshotAt": "2026-10-21T03:44:44+00:00",
   "schemaVersion": 1,
   "sources": {
     "vdem": {
@@ -196,7 +196,7 @@
         "deliberative: 404 Client Error: Not Found for url: https://ourworldindata.org/grapher/deliberative-democracy-index.csv?country=Venezuela&v=1",
         "egalitarian: 404 Client Error: Not Found for url: https://ourworldindata.org/grapher/egalitarian-democracy-index.csv?country=Venezuela&v=1"
       ],
-      "_ms": 4991
+      "_ms": 7244
     },
     "gdelt": {
       "ok": true,
@@ -209,10 +209,6 @@
           "label": "Sanciones / OFAC",
           "query": "venezuela (sanction OR sanción OR ofac OR chevron)",
           "series": [
-            {
-              "date": "2026-07-23",
-              "value": 12
-            },
             {
               "date": "2026-07-24",
               "value": 40
@@ -503,7 +499,11 @@
             },
             {
               "date": "2026-10-20",
-              "value": 8
+              "value": 12
+            },
+            {
+              "date": "2026-10-21",
+              "value": 0
             }
           ]
         }
@@ -513,14 +513,14 @@
         "maduro: 429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=venezuela+maduro&mode=timelinevolraw&format=json&timespan=90d",
         "protests: 429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=venezuela+%28protest+OR+protesta+OR+manifestaci%C3%B3n%29&mode=timelinevolraw&format=json&timespan=90d"
       ],
-      "_ms": 49882
+      "_ms": 48730
     },
     "foroPenal": {
       "ok": true,
       "source": "Foro Penal",
       "url": "https://foropenal.com/",
-      "fetchedAt": "2026-10-20T21:22:22+00:00",
-      "asOf": "2026-04-27",
+      "fetchedAt": "2026-10-21T03:45:40+00:00",
+      "asOf": "2026-10-20",
       "total": 322,
       "categories": {
         "Civiles": 875,
@@ -529,17 +529,17 @@
         "Militares": 140,
         "Adolescentes": 0
       },
-      "_ms": 618
+      "_ms": 648
     },
     "predictionMarkets": {
       "ok": true,
       "source": "Polymarket Gamma + Manifold Markets",
       "url": "https://tuvzla.com/api/markets",
-      "fetchedAt": "2026-10-20T21:22:22.816Z",
+      "fetchedAt": "2026-10-21T03:45:42.915Z",
       "sources": {
         "polymarket": {
           "ok": true,
-          "count": 1
+          "count": 0
         },
         "manifold": {
           "ok": true,
@@ -547,19 +547,6 @@
         }
       },
       "markets": [
-        {
-          "id": "pm-1107737",
-          "title": "Will the U.S. invade Venezuela by December 31, 2026?",
-          "source": "Polymarket",
-          "prob": 3.55,
-          "liquidityUsd": 78171.03295,
-          "volumeUsd": 272716.49112900003,
-          "traders": 8921.427969,
-          "url": "https://polymarket.com/event/will-the-us-invade-venezuela-by-december-31-2026",
-          "slug": "will-the-us-invade-venezuela-by-december-31-2026",
-          "category": null,
-          "resolutionDate": "2027-01-01T04:59:00Z"
-        },
         {
           "id": "mf-eRy26fcDdHYMEl7k8rKe",
           "title": "Will there be a civil war in Venezuela before 2050?",
@@ -925,7 +912,7 @@
           "resolutionDate": "2030-01-30T23:59:00.000Z"
         }
       ],
-      "_ms": 634
+      "_ms": 1965
     }
   }
 }
