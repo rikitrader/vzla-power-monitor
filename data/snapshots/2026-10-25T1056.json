@@ -1,0 +1,615 @@
+{
+  "snapshotAt": "2026-10-25T10:55:48+00:00",
+  "schemaVersion": 1,
+  "sources": {
+    "vdem": {
+      "ok": true,
+      "source": "V-Dem (vía Our World In Data)",
+      "url": "https://ourworldindata.org/democracy",
+      "lastYear": 2025,
+      "scores": [
+        {
+          "year": 2000,
+          "liberal": 0.31,
+          "electoral": 0.573,
+          "participatory": 0.405
+        },
+        {
+          "year": 2001,
+          "liberal": 0.288,
+          "electoral": 0.529,
+          "participatory": 0.376
+        },
+        {
+          "year": 2002,
+          "liberal": 0.255,
+          "electoral": 0.495,
+          "participatory": 0.354
+        },
+        {
+          "year": 2003,
+          "liberal": 0.243,
+          "electoral": 0.487,
+          "participatory": 0.348
+        },
+        {
+          "year": 2004,
+          "liberal": 0.216,
+          "electoral": 0.475,
+          "participatory": 0.339
+        },
+        {
+          "year": 2005,
+          "liberal": 0.182,
+          "electoral": 0.474,
+          "participatory": 0.335
+        },
+        {
+          "year": 2006,
+          "liberal": 0.168,
+          "electoral": 0.45,
+          "participatory": 0.316
+        },
+        {
+          "year": 2007,
+          "liberal": 0.162,
+          "electoral": 0.434,
+          "participatory": 0.311
+        },
+        {
+          "year": 2008,
+          "liberal": 0.159,
+          "electoral": 0.432,
+          "participatory": 0.306
+        },
+        {
+          "year": 2009,
+          "liberal": 0.16,
+          "electoral": 0.431,
+          "participatory": 0.3
+        },
+        {
+          "year": 2010,
+          "liberal": 0.154,
+          "electoral": 0.419,
+          "participatory": 0.296
+        },
+        {
+          "year": 2011,
+          "liberal": 0.152,
+          "electoral": 0.415,
+          "participatory": 0.294
+        },
+        {
+          "year": 2012,
+          "liberal": 0.145,
+          "electoral": 0.399,
+          "participatory": 0.278
+        },
+        {
+          "year": 2013,
+          "liberal": 0.109,
+          "electoral": 0.327,
+          "participatory": 0.23
+        },
+        {
+          "year": 2014,
+          "liberal": 0.102,
+          "electoral": 0.312,
+          "participatory": 0.219
+        },
+        {
+          "year": 2015,
+          "liberal": 0.103,
+          "electoral": 0.3,
+          "participatory": 0.209
+        },
+        {
+          "year": 2016,
+          "liberal": 0.118,
+          "electoral": 0.293,
+          "participatory": 0.207
+        },
+        {
+          "year": 2017,
+          "liberal": 0.082,
+          "electoral": 0.233,
+          "participatory": 0.168
+        },
+        {
+          "year": 2018,
+          "liberal": 0.061,
+          "electoral": 0.213,
+          "participatory": 0.156
+        },
+        {
+          "year": 2019,
+          "liberal": 0.06,
+          "electoral": 0.209,
+          "participatory": 0.157
+        },
+        {
+          "year": 2020,
+          "liberal": 0.056,
+          "electoral": 0.206,
+          "participatory": 0.153
+        },
+        {
+          "year": 2021,
+          "liberal": 0.056,
+          "electoral": 0.215,
+          "participatory": 0.156
+        },
+        {
+          "year": 2022,
+          "liberal": 0.054,
+          "electoral": 0.209,
+          "participatory": 0.14
+        },
+        {
+          "year": 2023,
+          "liberal": 0.053,
+          "electoral": 0.206,
+          "participatory": 0.155
+        },
+        {
+          "year": 2024,
+          "liberal": 0.046,
+          "electoral": 0.196,
+          "participatory": 0.154
+        },
+        {
+          "year": 2025,
+          "liberal": 0.042,
+          "electoral": 0.181,
+          "participatory": 0.148
+        }
+      ],
+      "indices": [
+        {
+          "key": "liberal",
+          "slug": "liberal-democracy-index",
+          "label": "Democracia liberal"
+        },
+        {
+          "key": "electoral",
+          "slug": "electoral-democracy-index",
+          "label": "Democracia electoral"
+        },
+        {
+          "key": "participatory",
+          "slug": "participatory-democracy-index",
+          "label": "Democracia participativa"
+        },
+        {
+          "key": "deliberative",
+          "slug": "deliberative-democracy-index",
+          "label": "Democracia deliberativa"
+        },
+        {
+          "key": "egalitarian",
+          "slug": "egalitarian-democracy-index",
+          "label": "Democracia igualitaria"
+        }
+      ],
+      "errors": [
+        "deliberative: 404 Client Error: Not Found for url: https://ourworldindata.org/grapher/deliberative-democracy-index.csv?country=Venezuela&v=1",
+        "egalitarian: 404 Client Error: Not Found for url: https://ourworldindata.org/grapher/egalitarian-democracy-index.csv?country=Venezuela&v=1"
+      ],
+      "_ms": 6236
+    },
+    "gdelt": {
+      "ok": false,
+      "source": "GDELT 2.0 DOC API",
+      "url": "https://blog.gdeltproject.org/gdelt-doc-2-0-api-debuts/",
+      "timespan": "90d",
+      "queries": [],
+      "errors": [
+        "venezuela: 429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=venezuela&mode=timelinevolraw&format=json&timespan=90d",
+        "maduro: 429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=venezuela+maduro&mode=timelinevolraw&format=json&timespan=90d",
+        "protests: 429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=venezuela+%28protest+OR+protesta+OR+manifestaci%C3%B3n%29&mode=timelinevolraw&format=json&timespan=90d",
+        "sanctions: 429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=venezuela+%28sanction+OR+sanci%C3%B3n+OR+ofac+OR+chevron%29&mode=timelinevolraw&format=json&timespan=90d"
+      ],
+      "_ms": 46979
+    },
+    "foroPenal": {
+      "ok": true,
+      "source": "Foro Penal",
+      "url": "https://foropenal.com/",
+      "fetchedAt": "2026-10-25T10:56:42+00:00",
+      "asOf": "2026-04-27",
+      "total": 322,
+      "categories": {
+        "Civiles": 875,
+        "Hombres": 308,
+        "Mujeres": 14,
+        "Militares": 140,
+        "Adolescentes": 0
+      },
+      "_ms": 790
+    },
+    "predictionMarkets": {
+      "ok": true,
+      "source": "Polymarket Gamma + Manifold Markets",
+      "url": "https://tuvzla.com/api/markets",
+      "fetchedAt": "2026-10-25T10:56:43.221Z",
+      "sources": {
+        "polymarket": {
+          "ok": true,
+          "count": 0
+        },
+        "manifold": {
+          "ok": true,
+          "count": 28
+        }
+      },
+      "markets": [
+        {
+          "id": "mf-eRy26fcDdHYMEl7k8rKe",
+          "title": "Will there be a civil war in Venezuela before 2050?",
+          "source": "Manifold",
+          "prob": 52.805072111176266,
+          "liquidityUsd": 1090,
+          "volumeUsd": 2620.7877956103057,
+          "traders": 34,
+          "url": "https://manifold.markets/MetaculusBot/will-there-be-a-civil-war-in-venezu",
+          "slug": "will-there-be-a-civil-war-in-venezu",
+          "category": null,
+          "resolutionDate": "2050-01-01T05:00:00.000Z"
+        },
+        {
+          "id": "mf-l52E9LtA06",
+          "title": "Will Trump or his family benefit financially from US control of Venezuela by end of year?",
+          "source": "Manifold",
+          "prob": 62.25527227280161,
+          "liquidityUsd": 1000,
+          "volumeUsd": 3965.703687108634,
+          "traders": 35,
+          "url": "https://manifold.markets/robert/will-trump-or-his-family-benefit-fi",
+          "slug": "will-trump-or-his-family-benefit-fi",
+          "category": null,
+          "resolutionDate": "2026-12-31T23:59:00.000Z"
+        },
+        {
+          "id": "mf-Esg6hlPqCd",
+          "title": "Will Maria Corina Machado ever be President of Venezuela?",
+          "source": "Manifold",
+          "prob": 17.33134494653341,
+          "liquidityUsd": 1000,
+          "volumeUsd": 9789.185073239742,
+          "traders": 53,
+          "url": "https://manifold.markets/IAF/will-maria-corina-machado-ever-be-p",
+          "slug": "will-maria-corina-machado-ever-be-p",
+          "category": null,
+          "resolutionDate": "2100-12-31T23:59:00.000Z"
+        },
+        {
+          "id": "mf-NnR8uIyNUz",
+          "title": "Will the next presidential election in Venezuela be free and fair?",
+          "source": "Manifold",
+          "prob": 34.99999999999998,
+          "liquidityUsd": 1000,
+          "volumeUsd": 601.4069455706405,
+          "traders": 10,
+          "url": "https://manifold.markets/Plant/will-the-next-presidential-election",
+          "slug": "will-the-next-presidential-election",
+          "category": null,
+          "resolutionDate": "2030-12-31T23:59:00.000Z"
+        },
+        {
+          "id": "mf-OAuqZIEIEz",
+          "title": "Free & Fair Presidential Election in Venezuela by EOY 2026?",
+          "source": "Manifold",
+          "prob": 8.36550136083473,
+          "liquidityUsd": 1000,
+          "volumeUsd": 3861.5721439001168,
+          "traders": 22,
+          "url": "https://manifold.markets/B/free-fair-presidential-election-in",
+          "slug": "free-fair-presidential-election-in",
+          "category": null,
+          "resolutionDate": "2026-12-31T23:59:00.000Z"
+        },
+        {
+          "id": "mf-SnRqRU56N8",
+          "title": "Presidential Election in Venezuela by EOY 2026?",
+          "source": "Manifold",
+          "prob": 6.242014781007233,
+          "liquidityUsd": 1000,
+          "volumeUsd": 6878.26379844727,
+          "traders": 42,
+          "url": "https://manifold.markets/SqrtMinusOne/presidential-election-in-venezuela",
+          "slug": "presidential-election-in-venezuela",
+          "category": null,
+          "resolutionDate": "2026-12-31T23:59:00.000Z"
+        },
+        {
+          "id": "mf-ttdOSsIt0g",
+          "title": "Will Venezuela enter a new hot war with anyone by the end of 2026?",
+          "source": "Manifold",
+          "prob": 4.901421804701405,
+          "liquidityUsd": 1000,
+          "volumeUsd": 19427.25463875743,
+          "traders": 71,
+          "url": "https://manifold.markets/Panfilo/will-venezuela-enter-a-new-hot-war",
+          "slug": "will-venezuela-enter-a-new-hot-war",
+          "category": null,
+          "resolutionDate": "2026-12-31T23:59:00.000Z"
+        },
+        {
+          "id": "mf-gyPcnhyCun",
+          "title": "Will Venezuela become the 51st state in trump’s term?",
+          "source": "Manifold",
+          "prob": 3.62734465052843,
+          "liquidityUsd": 1000,
+          "volumeUsd": 1251.0000000000005,
+          "traders": 8,
+          "url": "https://manifold.markets/Mochi/will-venezuela-become-the-51st-stat",
+          "slug": "will-venezuela-become-the-51st-stat",
+          "category": null,
+          "resolutionDate": "2029-01-20T23:59:00.000Z"
+        },
+        {
+          "id": "mf-34fxk3yizn",
+          "title": "If the Musk/Maduro fight happens and Maduro loses, will Maduro cede power?",
+          "source": "Manifold",
+          "prob": 24.805069169518813,
+          "liquidityUsd": 1000,
+          "volumeUsd": 2020.1889998402787,
+          "traders": 11,
+          "url": "https://manifold.markets/EricMoyer/if-the-muskmaduro-fight-happens-and",
+          "slug": "if-the-muskmaduro-fight-happens-and",
+          "category": null,
+          "resolutionDate": "2030-07-29T03:59:00.000Z"
+        },
+        {
+          "id": "mf-c2CEyuLIEZ",
+          "title": "Will we learn by 2027 that Maduro’s ouster was an internal coup with US assistance?",
+          "source": "Manifold",
+          "prob": 15.208004972730743,
+          "liquidityUsd": 695,
+          "volumeUsd": 3952.0075862597964,
+          "traders": 32,
+          "url": "https://manifold.markets/MachiNi/will-we-learn-by-2027-that-maduros",
+          "slug": "will-we-learn-by-2027-that-maduros",
+          "category": null,
+          "resolutionDate": "2026-12-31T23:59:00.000Z"
+        },
+        {
+          "id": "mf-6QAgNtlNhR",
+          "title": "Will Trump pardon Nicolas Maduro before 1 Feb 2027?",
+          "source": "Manifold",
+          "prob": 12.078539294470293,
+          "liquidityUsd": 567,
+          "volumeUsd": 1166.9819855048888,
+          "traders": 12,
+          "url": "https://manifold.markets/Jack1/will-trump-pardon-nicolas-maduro-be",
+          "slug": "will-trump-pardon-nicolas-maduro-be",
+          "category": null,
+          "resolutionDate": "2027-01-31T23:59:00.000Z"
+        },
+        {
+          "id": "mf-NycSyCNcls",
+          "title": "Will María Corina Machado serve in a leadership role in a government in Venezuela by the end of 2027?",
+          "source": "Manifold",
+          "prob": 25.39312735180755,
+          "liquidityUsd": 300,
+          "volumeUsd": 1546.9422238058694,
+          "traders": 27,
+          "url": "https://manifold.markets/bens/will-maria-corina-machado-serve-in",
+          "slug": "will-maria-corina-machado-serve-in",
+          "category": null,
+          "resolutionDate": "2027-12-31T23:59:00.000Z"
+        },
+        {
+          "id": "mf-ALcgNZ8P0y",
+          "title": "Will Trump visit Venezuela in 2026?",
+          "source": "Manifold",
+          "prob": 5.383488194441028,
+          "liquidityUsd": 279,
+          "volumeUsd": 9815.811950821659,
+          "traders": 56,
+          "url": "https://manifold.markets/Jack1/will-trump-venezuela-in-2026",
+          "slug": "will-trump-venezuela-in-2026",
+          "category": null,
+          "resolutionDate": "2026-12-31T23:59:00.000Z"
+        },
+        {
+          "id": "mf-A9Qtcgpsyl",
+          "title": "Will Maduro die in U.S. custody?",
+          "source": "Manifold",
+          "prob": 50.76451600069787,
+          "liquidityUsd": 200,
+          "volumeUsd": 10478.944952852988,
+          "traders": 76,
+          "url": "https://manifold.markets/realTomBayes/will-maduro-die-in-us-custody",
+          "slug": "will-maduro-die-in-us-custody",
+          "category": null,
+          "resolutionDate": "2100-02-28T19:51:00.000Z"
+        },
+        {
+          "id": "mf-NdhUhU8OPO",
+          "title": "Maduro out of custody by EOY 2026?",
+          "source": "Manifold",
+          "prob": 6.000000000000002,
+          "liquidityUsd": 140,
+          "volumeUsd": 688.511941738595,
+          "traders": 21,
+          "url": "https://manifold.markets/Jack1/maduro-out-of-custody-by-eoy-2026",
+          "slug": "maduro-out-of-custody-by-eoy-2026",
+          "category": null,
+          "resolutionDate": "2026-12-30T19:23:00.000Z"
+        },
+        {
+          "id": "mf-nR0AhUQELQ",
+          "title": "Will Maduro escape prosecution through a deal with the US government?",
+          "source": "Manifold",
+          "prob": 18.000000000000014,
+          "liquidityUsd": 125,
+          "volumeUsd": 697.9004340755464,
+          "traders": 22,
+          "url": "https://manifold.markets/bens/will-maduro-escape-prosecution-thro",
+          "slug": "will-maduro-escape-prosecution-thro",
+          "category": null,
+          "resolutionDate": "2026-12-31T23:59:00.000Z"
+        },
+        {
+          "id": "mf-9900A5APz8",
+          "title": "Will Trump bomb Venezuela boats again before end of the year?",
+          "source": "Manifold",
+          "prob": 56.07225339547237,
+          "liquidityUsd": 100,
+          "volumeUsd": 359.22804497083575,
+          "traders": 21,
+          "url": "https://manifold.markets/PascalBlyau/will-trump-bomb-venezuela-boats-aga",
+          "slug": "will-trump-bomb-venezuela-boats-aga",
+          "category": null,
+          "resolutionDate": "2026-12-31T23:59:00.000Z"
+        },
+        {
+          "id": "mf-Q0CsgU6E08",
+          "title": "Will Nicolas Maduro return to Venezuela before 2028?",
+          "source": "Manifold",
+          "prob": 12.198143278927416,
+          "liquidityUsd": 100,
+          "volumeUsd": 60,
+          "traders": 3,
+          "url": "https://manifold.markets/DudleyDOODOO/will-nicolas-maduro-return-to-venez-dclqhOEAUy",
+          "slug": "will-nicolas-maduro-return-to-venez-dclqhOEAUy",
+          "category": null,
+          "resolutionDate": "2027-12-31T11:00:00.000Z"
+        },
+        {
+          "id": "mf-UIPES58Sps",
+          "title": "Will Nicolás Maduro return to Venezuela in his life?",
+          "source": "Manifold",
+          "prob": 79.71868436693829,
+          "liquidityUsd": 100,
+          "volumeUsd": 181.73039239699798,
+          "traders": 8,
+          "url": "https://manifold.markets/SpeaksForTrees/will-nicolas-maduro-return-to-venez",
+          "slug": "will-nicolas-maduro-return-to-venez",
+          "category": null,
+          "resolutionDate": "2062-12-31T23:59:00.000Z"
+        },
+        {
+          "id": "mf-gCydO9lAA2",
+          "title": "Will a P5 nation veto a 2026 UNSCR about US military action in Venezuela or its vessels?",
+          "source": "Manifold",
+          "prob": 68.59530564842491,
+          "liquidityUsd": 100,
+          "volumeUsd": 30.879181161987926,
+          "traders": 2,
+          "url": "https://manifold.markets/nfd/will-a-p5-nation-veto-a-2026-unscr",
+          "slug": "will-a-p5-nation-veto-a-2026-unscr",
+          "category": null,
+          "resolutionDate": "2026-12-31T23:59:00.000Z"
+        },
+        {
+          "id": "mf-lOy2glPN8y",
+          "title": "Will there be a civil war with at least 1,000 deaths in Venezuela in 2026?",
+          "source": "Manifold",
+          "prob": 7.000000000000001,
+          "liquidityUsd": 100,
+          "volumeUsd": 1442.6200054414367,
+          "traders": 16,
+          "url": "https://manifold.markets/Xiphias/will-there-be-a-civil-war-with-at-l",
+          "slug": "will-there-be-a-civil-war-with-at-l",
+          "category": null,
+          "resolutionDate": "2027-01-31T23:59:00.000Z"
+        },
+        {
+          "id": "mf-8Q5APAlhl6",
+          "title": "Will Maduro have a trial in USA during 2026?",
+          "source": "Manifold",
+          "prob": 4.3078089055438165,
+          "liquidityUsd": 100,
+          "volumeUsd": 2238.50371351486,
+          "traders": 23,
+          "url": "https://manifold.markets/SebastiánOrtega/will-maduro-have-a-trial-in-usa-dur",
+          "slug": "will-maduro-have-a-trial-in-usa-dur",
+          "category": null,
+          "resolutionDate": "2026-12-31T23:59:00.000Z"
+        },
+        {
+          "id": "mf-AuzSh09q96",
+          "title": "Will Trump pardon Maduro?",
+          "source": "Manifold",
+          "prob": 38.42953334289557,
+          "liquidityUsd": 100,
+          "volumeUsd": 1234.9322707800027,
+          "traders": 22,
+          "url": "https://manifold.markets/KevinBlaw/will-trump-pardon-maduro",
+          "slug": "will-trump-pardon-maduro",
+          "category": null,
+          "resolutionDate": "2030-01-04T14:15:00.000Z"
+        },
+        {
+          "id": "mf-OluRnIILtd",
+          "title": "Will former Venezuelan president Nicolaus Maduro come back to power in 2026",
+          "source": "Manifold",
+          "prob": 4.175659293268839,
+          "liquidityUsd": 100,
+          "volumeUsd": 574.4933428657214,
+          "traders": 14,
+          "url": "https://manifold.markets/100Anonymous/will-former-venezuelan-president-ni",
+          "slug": "will-former-venezuelan-president-ni",
+          "category": null,
+          "resolutionDate": "2026-12-31T10:17:00.000Z"
+        },
+        {
+          "id": "mf-SI29cs0ptN",
+          "title": "Will Nicolas Maduro be prosecuted and sentenced to life in prison before 2030?",
+          "source": "Manifold",
+          "prob": 46.622220147820805,
+          "liquidityUsd": 100,
+          "volumeUsd": 8.999999995049542,
+          "traders": 2,
+          "url": "https://manifold.markets/DudleyDOODOO/will-nicolas-maduro-be-prosecuted-a",
+          "slug": "will-nicolas-maduro-be-prosecuted-a",
+          "category": null,
+          "resolutionDate": "2029-12-31T11:00:00.000Z"
+        },
+        {
+          "id": "mf-nEPdNdU55s",
+          "title": "Will Maduro be released from U.S. custody before his wife?",
+          "source": "Manifold",
+          "prob": 9.871913361210675,
+          "liquidityUsd": 100,
+          "volumeUsd": 269.836804719573,
+          "traders": 10,
+          "url": "https://manifold.markets/realTomBayes/will-maduro-be-released-from-us-cus",
+          "slug": "will-maduro-be-released-from-us-cus",
+          "category": null,
+          "resolutionDate": "2026-12-31T19:49:00.000Z"
+        },
+        {
+          "id": "mf-qECy0N56RZ",
+          "title": "End of 2026, will Tumbles think it was good Trump unilaterally removed Maduro?",
+          "source": "Manifold",
+          "prob": 5.259231141457634,
+          "liquidityUsd": 100,
+          "volumeUsd": 1274.3210518185397,
+          "traders": 30,
+          "url": "https://manifold.markets/Tumbles/at-the-end-of-2026-will-tumbles-thi",
+          "slug": "at-the-end-of-2026-will-tumbles-thi",
+          "category": null,
+          "resolutionDate": "2026-12-31T23:59:00.000Z"
+        },
+        {
+          "id": "mf-yphuEs2sPh",
+          "title": "Will the Spanish ex-president José Luis Rodríguez Zapatero be tried because of his involvement with Maduro’s government?",
+          "source": "Manifold",
+          "prob": 34.51792528262288,
+          "liquidityUsd": 100,
+          "volumeUsd": 162.5456360673326,
+          "traders": 9,
+          "url": "https://manifold.markets/LaintalAy/will-the-spanish-expresident-jose-l",
+          "slug": "will-the-spanish-expresident-jose-l",
+          "category": null,
+          "resolutionDate": "2030-01-30T23:59:00.000Z"
+        }
+      ],
+      "_ms": 487
+    }
+  }
+}
