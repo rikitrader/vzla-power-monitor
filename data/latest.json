@@ -1,5 +1,5 @@
 {
-  "snapshotAt": "2026-10-31T04:34:48+00:00",
+  "snapshotAt": "2026-10-31T11:50:50+00:00",
   "schemaVersion": 1,
   "sources": {
     "vdem": {
@@ -196,7 +196,7 @@
         "deliberative: 404 Client Error: Not Found for url: https://ourworldindata.org/grapher/deliberative-democracy-index.csv?country=Venezuela&v=1",
         "egalitarian: 404 Client Error: Not Found for url: https://ourworldindata.org/grapher/egalitarian-democracy-index.csv?country=Venezuela&v=1"
       ],
-      "_ms": 5800
+      "_ms": 23338
     },
     "gdelt": {
       "ok": true,
@@ -205,173 +205,173 @@
       "timespan": "90d",
       "queries": [
         {
-          "key": "sanctions",
-          "label": "Sanciones / OFAC",
-          "query": "venezuela (sanction OR sanción OR ofac OR chevron)",
+          "key": "maduro",
+          "label": "Maduro / régimen",
+          "query": "venezuela maduro",
           "series": [
             {
               "date": "2026-08-03",
-              "value": 35
+              "value": 62
             },
             {
               "date": "2026-08-04",
-              "value": 47
+              "value": 46
             },
             {
               "date": "2026-08-05",
-              "value": 23
+              "value": 26
             },
             {
               "date": "2026-08-06",
-              "value": 16
-            },
-            {
-              "date": "2026-08-07",
-              "value": 6
-            },
-            {
-              "date": "2026-08-08",
-              "value": 7
-            },
-            {
-              "date": "2026-08-09",
-              "value": 2
-            },
-            {
-              "date": "2026-08-10",
-              "value": 4
-            },
-            {
-              "date": "2026-08-11",
-              "value": 29
-            },
-            {
-              "date": "2026-08-12",
-              "value": 10
-            },
-            {
-              "date": "2026-08-13",
-              "value": 7
-            },
-            {
-              "date": "2026-08-14",
-              "value": 7
-            },
-            {
-              "date": "2026-08-15",
-              "value": 5
-            },
-            {
-              "date": "2026-08-16",
-              "value": 12
-            },
-            {
-              "date": "2026-08-17",
-              "value": 9
-            },
-            {
-              "date": "2026-08-18",
-              "value": 12
-            },
-            {
-              "date": "2026-08-19",
-              "value": 35
-            },
-            {
-              "date": "2026-08-20",
-              "value": 25
-            },
-            {
-              "date": "2026-08-21",
-              "value": 16
-            },
-            {
-              "date": "2026-08-22",
-              "value": 8
-            },
-            {
-              "date": "2026-08-23",
-              "value": 8
-            },
-            {
-              "date": "2026-08-24",
-              "value": 5
-            },
-            {
-              "date": "2026-08-25",
-              "value": 3
-            },
-            {
-              "date": "2026-08-26",
-              "value": 16
-            },
-            {
-              "date": "2026-08-27",
-              "value": 10
-            },
-            {
-              "date": "2026-08-28",
-              "value": 24
-            },
-            {
-              "date": "2026-08-29",
               "value": 89
             },
             {
-              "date": "2026-08-30",
-              "value": 59
+              "date": "2026-08-07",
+              "value": 40
             },
             {
-              "date": "2026-08-31",
+              "date": "2026-08-08",
+              "value": 43
+            },
+            {
+              "date": "2026-08-09",
+              "value": 6
+            },
+            {
+              "date": "2026-08-10",
+              "value": 23
+            },
+            {
+              "date": "2026-08-11",
               "value": 34
             },
             {
+              "date": "2026-08-12",
+              "value": 23
+            },
+            {
+              "date": "2026-08-13",
+              "value": 79
+            },
+            {
+              "date": "2026-08-14",
+              "value": 55
+            },
+            {
+              "date": "2026-08-15",
+              "value": 126
+            },
+            {
+              "date": "2026-08-16",
+              "value": 31
+            },
+            {
+              "date": "2026-08-17",
+              "value": 32
+            },
+            {
+              "date": "2026-08-18",
+              "value": 41
+            },
+            {
+              "date": "2026-08-19",
+              "value": 50
+            },
+            {
+              "date": "2026-08-20",
+              "value": 45
+            },
+            {
+              "date": "2026-08-21",
+              "value": 19
+            },
+            {
+              "date": "2026-08-22",
+              "value": 12
+            },
+            {
+              "date": "2026-08-23",
+              "value": 13
+            },
+            {
+              "date": "2026-08-24",
+              "value": 8
+            },
+            {
+              "date": "2026-08-25",
+              "value": 20
+            },
+            {
+              "date": "2026-08-26",
+              "value": 13
+            },
+            {
+              "date": "2026-08-27",
+              "value": 20
+            },
+            {
+              "date": "2026-08-28",
+              "value": 69
+            },
+            {
+              "date": "2026-08-29",
+              "value": 421
+            },
+            {
+              "date": "2026-08-30",
+              "value": 115
+            },
+            {
+              "date": "2026-08-31",
+              "value": 183
+            },
+            {
               "date": "2026-09-01",
-              "value": 175
+              "value": 184
             },
             {
               "date": "2026-09-02",
-              "value": 177
+              "value": 141
             },
             {
               "date": "2026-09-03",
-              "value": 214
+              "value": 239
             },
             {
               "date": "2026-09-04",
-              "value": 37
+              "value": 138
             },
             {
               "date": "2026-09-05",
-              "value": 23
+              "value": 128
             },
             {
               "date": "2026-09-06",
-              "value": 44
+              "value": 47
             },
             {
               "date": "2026-09-07",
-              "value": 5
+              "value": 12
             },
             {
               "date": "2026-09-08",
-              "value": 15
+              "value": 38
             },
             {
               "date": "2026-09-09",
-              "value": 23
+              "value": 105
             },
             {
               "date": "2026-09-10",
-              "value": 13
+              "value": 59
             },
             {
               "date": "2026-09-11",
-              "value": 37
+              "value": 70
             },
             {
               "date": "2026-09-12",
-              "value": 13
+              "value": 17
             },
             {
               "date": "2026-09-13",
@@ -379,55 +379,55 @@
             },
             {
               "date": "2026-09-20",
-              "value": 17
+              "value": 31
             },
             {
               "date": "2026-09-21",
-              "value": 8
+              "value": 33
             },
             {
               "date": "2026-09-22",
-              "value": 19
+              "value": 111
             },
             {
               "date": "2026-09-23",
-              "value": 18
+              "value": 130
             },
             {
               "date": "2026-09-24",
-              "value": 10
+              "value": 271
             },
             {
               "date": "2026-09-25",
-              "value": 3
+              "value": 12
             },
             {
               "date": "2026-09-27",
-              "value": 11
+              "value": 31
             },
             {
               "date": "2026-09-28",
-              "value": 15
+              "value": 47
             },
             {
               "date": "2026-09-29",
-              "value": 25
+              "value": 37
             },
             {
               "date": "2026-09-30",
-              "value": 16
+              "value": 19
             },
             {
               "date": "2026-10-01",
-              "value": 32
+              "value": 52
             },
             {
               "date": "2026-10-02",
-              "value": 6
+              "value": 32
             },
             {
               "date": "2026-10-06",
-              "value": 0
+              "value": 1
             },
             {
               "date": "2026-10-08",
@@ -435,55 +435,55 @@
             },
             {
               "date": "2026-10-10",
-              "value": 1
+              "value": 0
             },
             {
               "date": "2026-10-15",
-              "value": 15
+              "value": 64
             },
             {
               "date": "2026-10-16",
-              "value": 17
+              "value": 41
             },
             {
               "date": "2026-10-17",
-              "value": 4
+              "value": 21
             },
             {
               "date": "2026-10-18",
-              "value": 4
+              "value": 13
             },
             {
               "date": "2026-10-19",
-              "value": 16
+              "value": 19
             },
             {
               "date": "2026-10-20",
-              "value": 12
+              "value": 23
             },
             {
               "date": "2026-10-21",
-              "value": 10
+              "value": 19
             },
             {
               "date": "2026-10-22",
-              "value": 2
+              "value": 39
             },
             {
               "date": "2026-10-23",
-              "value": 3
+              "value": 24
             },
             {
               "date": "2026-10-24",
-              "value": 10
+              "value": 21
             },
             {
               "date": "2026-10-25",
-              "value": 6
+              "value": 49
             },
             {
               "date": "2026-10-26",
-              "value": 0
+              "value": 2
             },
             {
               "date": "2026-10-27",
@@ -494,16 +494,16 @@
       ],
       "errors": [
         "venezuela: 429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=venezuela&mode=timelinevolraw&format=json&timespan=90d",
-        "maduro: 429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=venezuela+maduro&mode=timelinevolraw&format=json&timespan=90d",
-        "protests: 429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=venezuela+%28protest+OR+protesta+OR+manifestaci%C3%B3n%29&mode=timelinevolraw&format=json&timespan=90d"
+        "protests: 429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=venezuela+%28protest+OR+protesta+OR+manifestaci%C3%B3n%29&mode=timelinevolraw&format=json&timespan=90d",
+        "sanctions: 429 Client Error: Too Many Requests for url: https://api.gdeltproject.org/api/v2/doc/doc?query=venezuela+%28sanction+OR+sanci%C3%B3n+OR+ofac+OR+chevron%29&mode=timelinevolraw&format=json&timespan=90d"
       ],
-      "_ms": 50363
+      "_ms": 50185
     },
     "foroPenal": {
       "ok": true,
       "source": "Foro Penal",
       "url": "https://foropenal.com/",
-      "fetchedAt": "2026-10-31T04:35:45+00:00",
+      "fetchedAt": "2026-10-31T11:52:04+00:00",
       "asOf": null,
       "total": 322,
       "categories": {
@@ -513,13 +513,13 @@
         "Militares": 140,
         "Adolescentes": 0
       },
-      "_ms": 735
+      "_ms": 588
     },
     "predictionMarkets": {
       "ok": true,
       "source": "Polymarket Gamma + Manifold Markets",
       "url": "https://tuvzla.com/api/markets",
-      "fetchedAt": "2026-10-31T04:35:45.522Z",
+      "fetchedAt": "2026-10-31T11:52:04.995Z",
       "sources": {
         "polymarket": {
           "ok": true,
@@ -808,9 +808,9 @@
           "id": "mf-8Q5APAlhl6",
           "title": "Will Maduro have a trial in USA during 2026?",
           "source": "Manifold",
-          "prob": 4.3078089055438165,
+          "prob": 2.9733587798651246,
           "liquidityUsd": 100,
-          "volumeUsd": 2238.50371351486,
+          "volumeUsd": 2338.50371351486,
           "traders": 23,
           "url": "https://manifold.markets/SebastiánOrtega/will-maduro-have-a-trial-in-usa-dur",
           "slug": "will-maduro-have-a-trial-in-usa-dur",
@@ -896,7 +896,7 @@
           "resolutionDate": "2030-01-30T23:59:00.000Z"
         }
       ],
-      "_ms": 420
+      "_ms": 695
     }
   }
 }
